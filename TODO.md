@@ -50,6 +50,10 @@ Upcoming
 Changelog
 --------------------------------------------------------------------
 
+### 0.1.1: Nevermind, forgot the post index layout
+
+- Added the post index layout (9 - 4 - 2020)
+
 ### 0.1.0: Something That Works
 
 - [x] Main Content (9 - 4 - 2020)
