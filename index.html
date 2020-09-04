@@ -10,20 +10,24 @@ layout: default
 <div class="homepage-layout">
     {%- for post in site.posts -%}
         <div class="snip">
-            <h2 class="snip-title">
-                {{ post.title }}
-            </h2>
-            <h4 class="snip-subtitle">
-                {{ post.date | date_to_string: 'ordinal', 'US' }}
-            </h4>
-            <div class="snip-excerpt">
-                {{ post.excerpt }}
-            </div>
-            <div class="snip-actions">
-                <a class="button snip-link"
-                    href="{{ post.url }}">
-                    Read More
-                </a>
+            <div class="snip-container">
+                <div class="snip-header">
+                    <h2 class="snip-title">
+                        {{ post.title }}
+                    </h2>
+                    <h4 class="snip-subtitle">
+                        {{ post.date | date_to_string: 'ordinal', 'US' }}
+                    </h4>
+                </div>
+                <div class="snip-excerpt">
+                    {{ post.excerpt }}
+                </div>
+                <div class="snip-actions">
+                    <a class="button snip-link"
+                        href="{{ post.url }}">
+                        Read More
+                    </a>
+                </div>
             </div>
         </div>
     {%- endfor -%}

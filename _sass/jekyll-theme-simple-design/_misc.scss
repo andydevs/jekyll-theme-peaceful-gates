@@ -42,3 +42,32 @@
 .page-subtitle {
     margin: 0pt;
 }
+
+.snip {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: auto;
+}
+
+.snip-container {
+    margin: $spacing-1;
+}
+
+.snip-header {
+    display: flex;
+    flex-direction: column;
+}
+
+.snip-title, .snip-subtitle {
+    margin: 0pt;
+}
+
+.snip-actions {
+    display: flex;
+    flex-direction: row-reverse;
+
+    .button {
+        flex: 1;
+        text-align: center;
+    }
+}
