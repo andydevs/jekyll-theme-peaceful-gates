@@ -29,6 +29,7 @@ Upcoming
 
 - [x] Main Content (9 - 4 - 2020)
 - [x] Root Styling (9 - 4 - 2020)
+- [x] Root Layout Stuff (9 - 4 - 2020)
 - [ ] Two Panel Layout
 - [ ] Home Page
     - [ ] Grid

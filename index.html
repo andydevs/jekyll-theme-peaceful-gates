@@ -2,15 +2,11 @@
 layout: default
 ---
 
-<div class="page-header">
-    <div class="page-info">
-        <h1 class="page-title">{{ site.title }}</h1>
-    </div>
-    <button class="icon-button" id="open-menu">
-        <span class="fas fa-bars"></span>
-    </button>
-</div>
+<!-- Page Title -->
+{%- include page-header.html 
+    title=site.title -%}
 
+<!-- Homepage Layout -->
 <div class="homepage-layout">
     {%- for post in site.posts -%}
         <div class="snip">
