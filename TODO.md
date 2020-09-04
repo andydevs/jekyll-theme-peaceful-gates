@@ -50,6 +50,10 @@ Upcoming
 Changelog
 --------------------------------------------------------------------
 
+### 0.1.2: Updated font sizes
+
+- Updated font sizes (9 - 4 - 2020)
+
 ### 0.1.1: Nevermind, forgot the post index layout
 
 - Added the post index layout (9 - 4 - 2020)
