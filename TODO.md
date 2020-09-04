@@ -27,9 +27,6 @@ Upcoming
 
 ### Desktop
 
-- [x] Main Content (9 - 4 - 2020)
-- [x] Root Styling (9 - 4 - 2020)
-- [x] Root Layout Stuff (9 - 4 - 2020)
 - [ ] Two Panel Layout
 - [ ] Home Page
     - [ ] Grid
@@ -52,3 +49,10 @@ Upcoming
 
 Changelog
 --------------------------------------------------------------------
+
+### 0.1.0: Something That Works
+
+- [x] Main Content (9 - 4 - 2020)
+- [x] Root Styling (9 - 4 - 2020)
+- [x] Base Layout Stuff (9 - 4 - 2020)
+- [x] Styled Homepage (9 - 4 - 2020)
