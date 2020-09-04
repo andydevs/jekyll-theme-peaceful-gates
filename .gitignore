@@ -4,5 +4,6 @@
 .jekyll-cache
 _site
 _posts
-assets
+_config.yml
+assets/images
 Gemfile.lock
