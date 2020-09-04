@@ -6,8 +6,8 @@ layout: default
     <h1 class="page-title">
         {{ site.title }}
     </h1>
-    <button id="open-menu">
-        Open Menu
+    <button class="icon-button" id="open-menu">
+        <span class="fas fa-bars"></span>
     </button>
 </div>
 
@@ -24,7 +24,7 @@ layout: default
                 {{ post.excerpt }}
             </div>
             <div class="snip-actions">
-                <a class="snip-link"
+                <a class="button snip-link"
                     href="{{ post.url }}">
                     Read More
                 </a>

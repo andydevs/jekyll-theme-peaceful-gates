@@ -1,0 +1,9 @@
+// Font awesome config
+$fa-font-path: "/assets/fonts";
+
+// Imports
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/solid.scss";
+@import "./fontawesome/brands.scss";
+@import "./jekyll-theme-simple-design/variables";
+@import "./jekyll-theme-simple-design/base";

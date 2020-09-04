@@ -28,7 +28,7 @@ Upcoming
 ### Desktop
 
 - [x] Main Content (9 - 4 - 2020)
-- [ ] Root Styling
+- [x] Root Styling (9 - 4 - 2020)
 - [ ] Two Panel Layout
 - [ ] Home Page
     - [ ] Grid
