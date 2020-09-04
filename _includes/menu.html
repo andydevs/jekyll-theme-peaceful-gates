@@ -50,6 +50,12 @@
                         </a>
                     {%- endif -%}
 
+                    {%- if site.social.github -%}
+                        <a class="social-link" href="http://www.github.com/{{ site.social.github }}">
+                            <span class="fab fa-github"></span>
+                        </a>
+                    {%- endif -%}
+
                     {%- if site.social.email -%}
                         <a class="social-link" href="mailto://{{ site.social.email }}">
                             <span class="fas fa-envelope"></span>
