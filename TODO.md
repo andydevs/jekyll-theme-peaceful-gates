@@ -5,26 +5,6 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 --------------------------------------------------------------------
 
-### Mobile
-
-- [ ] Sliding Menu
-    - [ ] Menu Buttons
-    - [ ] Slide Animation
-- [ ] Post Grid
-
-### Darkmode
-
-- [ ] Background
-- [ ] Side Menu
-- [ ] Text
-- [ ] Headers
-- [ ] Table
-- [ ] Block Quote
-- [ ] Code Section
-
-Upcoming
---------------------------------------------------------------------
-
 ### Desktop
 
 - [ ] Two Panel Layout
@@ -46,6 +26,26 @@ Upcoming
         - [ ] Social Row
         - [ ] Footer Description
         - [ ] Copyright
+
+### Darkmode
+
+- [ ] Background
+- [ ] Side Menu
+- [ ] Text
+- [ ] Headers
+- [ ] Table
+- [ ] Block Quote
+- [ ] Code Section
+
+Upcoming
+--------------------------------------------------------------------
+
+### Mobile
+
+- [ ] Sliding Menu
+    - [ ] Menu Buttons
+    - [ ] Slide Animation
+- [ ] Post Grid
 
 Changelog
 --------------------------------------------------------------------
