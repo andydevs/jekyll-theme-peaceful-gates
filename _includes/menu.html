@@ -14,39 +14,53 @@
                 </div>
             </div>
             <ul class="menu-links">
-                <li><a href="#">Link A</a></li>
-                <li><a href="#">Link B</a></li>
-                <li><a href="#">Link C</a></li>
+                {%- for link in site.links -%}
+                    <li><a href="{{ link.url }}">{{ link.text }}</a></li>
+                {%- endfor -%}
             </ul>
             <footer class="footer">
                 <div class="social-bar">
-                    <a class="social-link" href="#">
-                        <span class="fab fa-facebook"></span>
-                    </a>
-                    <a class="social-link" href="#">
-                        <span class="fab fa-twitter"></span>
-                    </a>
-                    <a class="social-link" href="#">
-                        <span class="fab fa-instagram"></span>
-                    </a>
-                    <a class="social-link" href="#">
-                        <span class="fab fa-youtube"></span>
-                    </a>
-                    <a class="social-link" href="#">
-                        <span class="fab fa-linkedin"></span>
-                    </a>
-                    <a class="social-link" href="#">
-                        <span class="fas fa-envelope"></span>
-                    </a>
+                    {%- if site.social.facebook -%}
+                        <a class="social-link" href="http://www.facebook.com/{{ site.social.facebook }}">
+                            <span class="fab fa-facebook"></span>
+                        </a>
+                    {%- endif -%}
+
+                    {%- if site.social.twitter -%}
+                        <a class="social-link" href="http://www.twitter.com/{{ site.social.twitter }}">
+                            <span class="fab fa-twitter"></span>
+                        </a>
+                    {%- endif -%}
+
+                    {%- if site.social.instagram -%}
+                        <a class="social-link" href="http://www.instagram.com/{{ site.social.instagram }}">
+                            <span class="fab fa-instagram"></span>
+                        </a>
+                    {%- endif -%}
+
+                    {%- if site.social.youtube -%}
+                        <a class="social-link" href="http://www.youtube.com/{{ site.social.youtube }}">
+                            <span class="fab fa-youtube"></span>
+                        </a>
+                    {%- endif -%}
+
+                    {%- if site.social.linkedin -%}
+                        <a class="social-link" href="http://www.linkedin.com/in/{{ site.social.linkedin }}">
+                            <span class="fab fa-linkedin"></span>
+                        </a>
+                    {%- endif -%}
+
+                    {%- if site.social.email -%}
+                        <a class="social-link" href="mailto://{{ site.social.email }}">
+                            <span class="fas fa-envelope"></span>
+                        </a>
+                    {%- endif -%}
+
                 </div>
-                <p class="site-bio">
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi 
-                    debitis aliquid ipsa quos magni architecto illum nostrum placeat 
-                    eveniet, eius dolorum blanditiis repudiandae. 
-                    Perspiciatis sapiente nostrum numquam tenetur! 
-                    Numquam, consequuntur.
+                <p class="site-description">
+                    {{ site.description }}
                 </p>
-                <p class="copyright">Copyright &copy; Anshul Kharbanda 2020</p>
+                <p class="copyright">Copyright &copy; {{ site.copyright.author }} {{ site.copyright.year }}</p>
             </footer>
         </div>
     </div>
