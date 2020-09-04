@@ -2,4 +2,24 @@
 layout: page
 ---
 
-<h1>Ayyyyyyyyy</h1>
+<div class="homepage-layout">
+    {%- for post in site.posts -%}
+        <div class="snip">
+            <h2 class="snip-title">
+                {{ post.title }}
+            </h2>
+            <h4 class="snip-subtitle">
+                {{ post.date | date_to_string: 'ordinal', 'US' }}
+            </h4>
+            <div class="snip-excerpt">
+                {{ post.excerpt }}
+            </div>
+            <div class="snip-actions">
+                <a class="snip-link"
+                    href="{{ post.url }}">
+                    Open Post
+                </a>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>
