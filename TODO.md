@@ -5,38 +5,24 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 --------------------------------------------------------------------
 
-### Desktop
-
-- [ ] Two Panel Layout
-- [ ] Home Page
-    - [ ] Grid
-    - [ ] Post Snippet
-- [ ] Main Panel
-    - [ ] Content Gutters
-    - [ ] Page Header
-    - [ ] Headers
-    - [ ] Text
-    - [ ] Table
-    - [ ] Block Quote
-    - [ ] Code Section
-- [ ] Menu Panel
-    - [ ] Site Title
-    - [ ] Links Table
-    - [ ] Footer
-        - [ ] Social Row
-        - [ ] Footer Description
-        - [ ] Copyright
-
 Upcoming
 --------------------------------------------------------------------
 
 ### More Styling
 
-- [ ] Make showcase
+- [ ] Showcase Page
+- [ ] Usage Page
+- [ ] Post Page
+- [ ] Headers
+- [ ] Text
 - [ ] Image
 - [ ] Table
 - [ ] Blockquote
-- [ ] Code
+- [ ] Code Section
+
+### Syntax Highlighting Support
+
+- [ ] Syntax Highlighting Support
 
 ### Darkmode
 
@@ -48,6 +34,12 @@ Upcoming
 - [ ] Table
 - [ ] Block Quote
 - [ ] Code Section
+
+### Desktop
+
+- [ ] Two Panel Layout
+- [ ] Post Grid
+- [ ] Content Gutters
 
 Updates
 --------------------------------------------------------------------
