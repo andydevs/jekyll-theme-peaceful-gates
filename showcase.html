@@ -1,0 +1,272 @@
+---
+layout: page
+title: Design Showcase
+---
+
+<!-- Headers! -->
+<h1>Header 1</h1>
+<h2>Header 2</h2>
+<h3>Header 3</h3>
+<h4>Header 4</h4>
+<h5>Header 5</h5>
+<h6>Header 6</h6>
+
+<!-- Text -->
+<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid, asperiores corporis. Perferendis maiores sed amet sequi ad quaerat, obcaecati minus officiis esse repudiandae, sunt dolorum, nostrum ullam nihil aut fugit. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa sapiente minus voluptatem dolores commodi fuga aut asperiores quasi ad vitae ea minima laudantium at, facilis cumque cum repellat iusto ullam! Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum, explicabo. A harum aut esse. Voluptates eos dolorum, provident dolore, vel autem repellendus accusamus, eius unde inventore perspiciatis maiores deserunt harum!</p>
+
+<!-- Images -->
+<img src="/assets/images/showcase/landscape-photo.jpg" alt="Landscape Photo">
+<img src="/assets/images/showcase/portrait-photo.jpg" alt="Portrait Photo">
+<img src="/assets/images/showcase/square-photo.jpg" alt="Square Photo">
+
+<!-- Table -->
+<div class="horizontal-scroll">
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Joe Schmoe</td>
+                <td>42</td>
+                <td>joe@schmoes.goes</td>
+            </tr>
+            <tr>
+                <td>Jim Shim</td>
+                <td>24</td>
+                <td>jim@shims.dims</td>
+            </tr>
+            <tr>
+                <td>Alan Alanson</td>
+                <td>66</td>
+                <td>alan@alanson.rhyme</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<!-- Blockquote -->
+<blockquote>
+    I've made a severe and continuous lapse in my judgement and I don't expect to be forgiven. I am simply here to apologize.
+</blockquote>
+
+<p>Here's an example of <code>Inline code</code></p>
+
+{%- highlight python -%}
+def factorial(n):
+    """
+    Computes the factorial of n
+    """
+    if n == 0: return 1
+    else: return n*factorial(n-1)
+
+def exp(x):
+    """
+    Computes the exponential of x
+    """
+    return sum((x**n)/factorial(n) for n in range(1000))
+
+def sin(x):
+    """
+    Computes the sin of x
+    """
+    return sum((-1**n)*x**(2*n+1)/factorial(2*n+1) for n in range(1000))
+
+def cos(x):
+    """
+    Computes the cos of x
+    """
+    return sum((-1**n)*x*(2*n)/factorial(2*n) for n in range(1000))
+{%- endhighlight -%}
+
+{%- highlight csharp -%}
+public class Person {
+    // Private variables
+    private string name;
+    private string email;
+    private DateTime birthday;
+
+    // Constructor
+    public Person(String name, String email, DateTime birthday) {
+        this.name = name;
+        this.email = email;
+        this.birthday = birthday;
+    }
+
+    // Get name
+    public string Name {
+        get { return name; }
+    }
+
+    // Get and set email
+    public string Email {
+        get { return email; }
+        set { email = value; }
+    }
+
+    // Calculated property
+    public int Age {
+        get { return DateTime.Today.Year - birthday.Year; }
+    }
+}
+{%- endhighlight -%}
+
+{%- highlight html -%}
+<div class="main-layout">
+    <div class="menu menu-layout">
+        <p>Menu Content</p>
+    </div>
+
+    <div class="post-snippet main">
+        <h1 class="title">Example Header</h1>
+        <p class="snippet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Voluptate adipisci laborum tempore quam recusandae harum 
+            vero optio nemo, dolorem quaerat? Nemo necessitatibus 
+            vero eligendi eius, minima unde eos voluptatibus tenetur... Lorem ipsum 
+            dolor sit amet consectetur adipisicing elit. Rerum doloremque quibusdam 
+            molestias? Alias, labore impedit libero ea dolore neque provident molestiae 
+            deleniti autem nulla veniam architecto sit exercitationem perferendis praesentium? 
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae ab nihil eaque...</p>
+        <p class="buttons">
+            <a href="#" class="button save-button">Save</a>
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet second-1">
+        <h2 class="title">Example Header</h2>
+        <p class="snippet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Voluptate adipisci laborum tempore quam recusandae harum 
+            vero optio nemo, dolorem quaerat? Nemo necessitatibus 
+            vero eligendi eius, minima unde eos voluptatibus tenetur...</p>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet second-2">
+        <h2 class="title">Example Header</h2>
+        <p class="snippet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Voluptate adipisci laborum tempore quam recusandae harum 
+            vero optio nemo, dolorem quaerat? Nemo necessitatibus 
+            vero eligendi eius, minima unde eos voluptatibus tenetur...</p>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet second-3">
+        <h2 class="title">Example Header</h2>
+        <p class="snippet">Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Voluptate adipisci laborum tempore quam recusandae harum 
+            vero optio nemo, dolorem quaerat? Nemo necessitatibus 
+            vero eligendi eius, minima unde eos voluptatibus tenetur...</p>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-1">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-2">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-3">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-4">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-5">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-6">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-7">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <div class="post-snippet third-8">
+        <h3 class="title">Example Header</h3>
+        <p class="buttons">
+            <a href="#" class="button read-button">Read</a>
+        </p>
+    </div>
+
+    <footer class="footer">
+        <div>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Atque ratione officia minima esse, enim ducimus adipisci 
+                voluptates non iure iste commodi eius, porro recusandae. 
+                Debitis libero sapiente odio placeat atque?
+            </p>
+            <center>
+                Copyright &copy; Anshul Kharbanda (andydevs) 2020
+            </center>
+        </div>
+    </footer>
+</div>
+{%- endhighlight -%}
+
+{%- highlight scss -%}
+$second-count: 3;
+$third-count: 12;
+
+.menu {
+    grid-area: menu;
+}
+
+.main {
+    grid-area: main;
+}
+
+@for $i from 1 through $second-count {
+    .second-#{$i} {
+        grid-area: second-#{$i};
+    }
+}
+
+@for $i from 1 through $third-count {
+    .third-#{$i} {
+        grid-area: third-#{$i};
+    }
+}
+
+.footer {
+    grid-area: footer;
+}
+{%- endhighlight -%}

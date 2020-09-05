@@ -10,7 +10,7 @@ Upcoming
 
 ### More Styling
 
-- [ ] Showcase Page
+- [x] Showcase Page (9 - 5 - 2020)
 - [ ] Usage Page
 - [ ] Post Page
 - [ ] Headers
