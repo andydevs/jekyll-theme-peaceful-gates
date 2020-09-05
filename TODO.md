@@ -29,6 +29,7 @@ Backlog
 
 ### Darkmode
 
+- [ ] Toggle
 - [ ] Background
 - [ ] Side Menu
 - [ ] Text
@@ -42,10 +43,11 @@ Upcoming
 
 ### Mobile
 
-- [ ] Sliding Menu
-    - [ ] Menu Buttons
-    - [ ] Slide Animation
-- [ ] Post Grid
+- [x] Sliding Menu
+    - [x] Menu Buttons (9 - 5 - 2020)
+    - [x] Slide Animation (9 - 5 - 2020)
+- [ ] Menu Grid
+- [ ] Linear Post Grid
 
 Updates
 --------------------------------------------------------------------
