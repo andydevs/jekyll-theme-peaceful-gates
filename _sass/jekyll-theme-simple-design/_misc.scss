@@ -1,5 +1,5 @@
 .show-on-mobile {
-    visibility: hidden;
+    // visibility: hidden;
 }
 
 .button {
@@ -22,17 +22,14 @@
     font-size: $icon-font-size;
 }
 
-.main-container {
-    margin: $spacing-3;
-}
-
 .page-header {
     display: flex;
+    margin: $spacing-1 0pt;
 }
 
 .page-info {
     flex: 1;
-    margin: $spacing-3 0pt;
+    margin: 0pt;
 }
 
 .page-title {
@@ -44,33 +41,4 @@
     margin: 0pt;
     font-size: $medium-font-size;
     font-weight: normal;
-}
-
-.snip {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: auto;
-}
-
-.snip-container {
-    margin: $spacing-1;
-}
-
-.snip-header {
-    display: flex;
-    flex-direction: column;
-}
-
-.snip-title, .snip-subtitle {
-    margin: 0pt;
-}
-
-.snip-actions {
-    display: flex;
-    flex-direction: row-reverse;
-
-    .button {
-        flex: 1;
-        text-align: center;
-    }
 }

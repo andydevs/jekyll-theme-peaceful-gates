@@ -1,4 +1,23 @@
+.main-container {
+    margin: $spacing-3;
+}
+
+.menu-window {
+    z-index: 1;
+    visibility: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
 .menu {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    transform: translateX(-100%);
+
     background-color: $light-gray-color;
     display: grid;
     grid-template-rows: auto;
