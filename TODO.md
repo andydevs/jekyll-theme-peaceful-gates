@@ -46,7 +46,7 @@ Upcoming
 - [x] Sliding Menu
     - [x] Menu Buttons (9 - 5 - 2020)
     - [x] Slide Animation (9 - 5 - 2020)
-- [ ] Menu Grid
+- [x] Menu Grid (9 - 5 - 2020)
 - [ ] Linear Post Grid
 
 Updates

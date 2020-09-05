@@ -1,9 +1,9 @@
-.main-container {
-    margin: $spacing-3;
-}
-
 .scroll-lock {
     overflow: hidden;
+}
+
+.main-container {
+    margin: $spacing-3;
 }
 
 .menu-window {
@@ -30,6 +30,9 @@
 
 .menu-container {
     margin: $spacing-3;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
 }
 
 .menu-header {
