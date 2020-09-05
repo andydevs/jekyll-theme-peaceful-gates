@@ -17,6 +17,9 @@
 }
 
 .icon-button {
+    appearance: none;
+    -moz-appearence: none;
+    -webkit-appearance: none;
     background: none;
     margin: $spacing-1;
     border: none;
