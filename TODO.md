@@ -47,6 +47,11 @@ Upcoming
     - [ ] Slide Animation
 - [ ] Post Grid
 
+Updates
+--------------------------------------------------------------------
+
+- FIX: Remove Duplicate Header on Page (9 - 4 - 2020)
+
 Changelog
 --------------------------------------------------------------------
 
