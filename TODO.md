@@ -30,6 +30,14 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
+### More Styling
+
+- [ ] Make showcase
+- [ ] Image
+- [ ] Table
+- [ ] Blockquote
+- [ ] Code
+
 ### Darkmode
 
 - [ ] Toggle
@@ -47,6 +55,10 @@ Updates
 Changelog
 --------------------------------------------------------------------
 
+#### 0.2.1: Fixed header icon buttons
+
+- Fix alignment and size of header icon buttons (9 - 5 - 2020)
+
 ### 0.2.0: Mobile View
 
 - [x] Sliding Menu
@@ -56,11 +68,11 @@ Changelog
 - [x] Linear Post Grid (9 - 5 - 2020)
 - FIX: Remove Duplicate Header on Page (9 - 4 - 2020)
 
-### 0.1.2: Updated font sizes
+#### 0.1.2: Updated font sizes
 
 - Updated font sizes (9 - 4 - 2020)
 
-### 0.1.1: Nevermind, forgot the post index layout
+#### 0.1.1: Nevermind, forgot the post index layout
 
 - Added the post index layout (9 - 4 - 2020)
 
