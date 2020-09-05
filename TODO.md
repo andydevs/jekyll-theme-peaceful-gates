@@ -41,21 +41,20 @@ Upcoming
 - [ ] Block Quote
 - [ ] Code Section
 
-### Mobile
+Updates
+--------------------------------------------------------------------
+
+Changelog
+--------------------------------------------------------------------
+
+### 0.2.0: Mobile View
 
 - [x] Sliding Menu
     - [x] Menu Buttons (9 - 5 - 2020)
     - [x] Slide Animation (9 - 5 - 2020)
 - [x] Menu Grid (9 - 5 - 2020)
 - [x] Linear Post Grid (9 - 5 - 2020)
-
-Updates
---------------------------------------------------------------------
-
 - FIX: Remove Duplicate Header on Page (9 - 4 - 2020)
-
-Changelog
---------------------------------------------------------------------
 
 ### 0.1.2: Updated font sizes
 
