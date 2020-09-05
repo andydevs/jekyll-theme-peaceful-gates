@@ -1,3 +1,10 @@
+.homepage-layout {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 1fr;
+    gap: $spacing-3;
+}
+
 .snip {
     display: grid;
     grid-template-rows: auto 1fr auto;
