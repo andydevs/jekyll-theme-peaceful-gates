@@ -8,21 +8,12 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### More Styling
-
-- [x] Showcase Page (9 - 5 - 2020)
-- [x] Code Section (9 - 5 - 2020)
-- [x] Syntax Highlighting Support (9 - 6 - 2020)
-- [x] Headers (9 - 6 - 2020)
-- [x] Text (9 - 6 - 2020)
-- [x] Image (9 - 6 - 2020)
-- [x] Table (9 - 6 - 2020)
-- [x] Blockquote (9 - 6 - 2020)
-
 ### More Documentation
 
 - [ ] Usage Page
 - [ ] Post Page
+- [ ] Post Index Page
+- [ ] Index Page
 
 ### Desktop
 
@@ -45,10 +36,20 @@ Upcoming
 Updates
 --------------------------------------------------------------------
 
-- TWEAK: Icon size
-
 Changelog
 --------------------------------------------------------------------
+
+### 0.3.0: Styling
+
+- [x] Showcase Page (9 - 5 - 2020)
+- [x] Code Section (9 - 5 - 2020)
+- [x] Syntax Highlighting Support (9 - 6 - 2020)
+- [x] Headers (9 - 6 - 2020)
+- [x] Text (9 - 6 - 2020)
+- [x] Image (9 - 6 - 2020)
+- [x] Table (9 - 6 - 2020)
+- [x] Blockquote (9 - 6 - 2020)
+- TWEAK: Icon size (9 - 5 - 2020)
 
 #### 0.2.1: Fixed header icon buttons
 
