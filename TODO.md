@@ -11,18 +11,15 @@ Upcoming
 ### More Styling
 
 - [x] Showcase Page (9 - 5 - 2020)
-- [ ] Usage Page
-- [ ] Post Page
+- [x] Code Section (9 - 5 - 2020)
+- [x] Syntax Highlighting Support (9 - 6 - 2020)
 - [ ] Headers
 - [ ] Text
 - [ ] Image
 - [ ] Table
 - [ ] Blockquote
-- [ ] Code Section
-
-### Syntax Highlighting Support
-
-- [ ] Syntax Highlighting Support
+- [ ] Usage Page
+- [ ] Post Page
 
 ### Darkmode
 
