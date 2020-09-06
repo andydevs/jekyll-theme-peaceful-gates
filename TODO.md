@@ -13,9 +13,9 @@ Upcoming
 - [x] Showcase Page (9 - 5 - 2020)
 - [x] Code Section (9 - 5 - 2020)
 - [x] Syntax Highlighting Support (9 - 6 - 2020)
-- [ ] Headers
-- [ ] Text
-- [ ] Image
+- [x] Headers (9 - 6 - 2020)
+- [x] Text (9 - 6 - 2020)
+- [x] Image (9 - 6 - 2020)
 - [ ] Table
 - [ ] Blockquote
 - [ ] Usage Page

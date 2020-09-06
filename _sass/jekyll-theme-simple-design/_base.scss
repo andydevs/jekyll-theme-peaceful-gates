@@ -13,16 +13,25 @@ a {
     }
 }
 
+@mixin page-section {
+    display: block;
+    margin: $spacing-3 auto;
+}
+
+h1,h2,h3,h4,h5,h6,p {
+    @include page-section;
+}
+
 img {
+    @include page-section;
     max-width: 100%;
-    margin: $spacing-3 0pt;
 }
 
 table {
-    margin: $spacing-3 0pt;
+    @include page-section;
 }
 
 blockquote {
-    margin: $spacing-3 0pt;
+    @include page-section;
     margin-left: $spacing-3;
 }
