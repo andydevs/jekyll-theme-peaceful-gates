@@ -17,7 +17,7 @@ Upcoming
 - [x] Text (9 - 6 - 2020)
 - [x] Image (9 - 6 - 2020)
 - [x] Table (9 - 6 - 2020)
-- [ ] Blockquote
+- [x] Blockquote (9 - 6 - 2020)
 
 ### More Documentation
 

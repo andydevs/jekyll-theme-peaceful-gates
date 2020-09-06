@@ -58,4 +58,5 @@ table {
 blockquote {
     @include page-section;
     margin-left: $spacing-3;
+    font-size: $medium-font-size;
 }
