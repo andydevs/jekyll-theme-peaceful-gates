@@ -16,7 +16,7 @@ Upcoming
 - [x] Headers (9 - 6 - 2020)
 - [x] Text (9 - 6 - 2020)
 - [x] Image (9 - 6 - 2020)
-- [ ] Table
+- [x] Table (9 - 6 - 2020)
 - [ ] Blockquote
 
 ### More Documentation

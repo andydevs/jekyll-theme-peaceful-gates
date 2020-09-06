@@ -41,10 +41,9 @@ table {
     table-layout: fixed;
     margin: 0pt;
     width: 100%;
-
     th,td {
         margin: 0pt;
-        padding: $spacing-3;
+        padding: $spacing-2;
         overflow: hidden;
         text-align: center;
         border-bottom: 1px solid $black-color;

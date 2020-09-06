@@ -1,5 +1,4 @@
 $(function() {
-
     $('#open-menu').click(function() {
         $('#menu-window').show()
         $('body').addClass('scroll-lock')
@@ -12,5 +11,4 @@ $(function() {
             $('#menu-window').hide()
         })
     })
-
 })
