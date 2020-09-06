@@ -18,8 +18,17 @@ Upcoming
 - [x] Image (9 - 6 - 2020)
 - [ ] Table
 - [ ] Blockquote
+
+### More Documentation
+
 - [ ] Usage Page
 - [ ] Post Page
+
+### Desktop
+
+- [ ] Two Panel Layout
+- [ ] Post Grid
+- [ ] Content Gutters
 
 ### Darkmode
 
@@ -32,11 +41,6 @@ Upcoming
 - [ ] Block Quote
 - [ ] Code Section
 
-### Desktop
-
-- [ ] Two Panel Layout
-- [ ] Post Grid
-- [ ] Content Gutters
 
 Updates
 --------------------------------------------------------------------

@@ -27,8 +27,33 @@ img {
     max-width: 100%;
 }
 
-table {
+// Wraps an element with a horizontal scroll bar
+.horizontal-scroll {
     @include page-section;
+    width: 100%;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+
+// Table Design
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: 0pt;
+    width: 100%;
+
+    th,td {
+        margin: 0pt;
+        padding: $spacing-3;
+        overflow: hidden;
+        text-align: center;
+        border-bottom: 1px solid $black-color;
+    }
+    tr:last-child {
+        td {
+            border-bottom: none;
+        }
+    }
 }
 
 blockquote {
