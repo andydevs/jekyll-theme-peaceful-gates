@@ -9,10 +9,16 @@ code {
 }
 
 pre {
+    overflow-x: auto;
     margin: $spacing-3 0pt;
     padding: $spacing-3;
     background-color: $light-gray-color;
     border-radius: $spacing-1;
+    > code {
+        background: none;
+        border-radius: 0pt;
+        padding: 0pt;
+    }
 }
 
 /**
