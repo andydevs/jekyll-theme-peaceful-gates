@@ -8,21 +8,21 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Darkmode
+### Better HTML Tags
 
-- [ ] Toggle
-- [ ] Background
-- [ ] Side Menu
-- [ ] Text
-- [ ] Headers
-- [ ] Table
-- [ ] Block Quote
-- [ ] Code Section
+- [ ] Use better html tags
 
-### Fixes
+### Better Darkmode
 
-- [ ] Fix table system
-- [ ] Use better html tags (article for post)
+- [ ] Transition
+- [ ] Local Storage
+- [ ] Auto-Toggle
+
+### Better Table System
+
+- [ ] Research how ruby code works with Jekyll Themes
+- [ ] Create Table Converter Gem
+- [ ] Incorporate Table System
 
 ### Desktop
 
@@ -37,6 +37,11 @@ Updates
 
 Changelog
 --------------------------------------------------------------------
+
+### 0.4.0: Darkmode
+
+- [x] Style
+- [x] Toggle
 
 #### 0.3.2: Link URLs
 
