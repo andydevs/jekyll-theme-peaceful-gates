@@ -36,7 +36,11 @@ Updates
 Changelog
 --------------------------------------------------------------------
 
-### 0.3.1: More Documentation and Pages
+#### 0.3.2: Link URLs
+
+- Fix link URL (added baseurl)
+
+#### 0.3.1: More Documentation and Pages
 
 - [x] Usage Page
 - [x] 404 Page
