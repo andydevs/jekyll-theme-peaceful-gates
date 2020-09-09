@@ -8,15 +8,15 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### More Documentation
+### More Documentation and Pages
 
 - [ ] Usage Page
+- [ ] 404 Page
 
-### Desktop
+### Fixes
 
-- [ ] Two Panel Layout
-- [ ] Post Grid
-- [ ] Content Gutters
+- [ ] Fix table system
+- [ ] Use better html tags (article for post)
 
 ### Darkmode
 
@@ -29,6 +29,11 @@ Upcoming
 - [ ] Block Quote
 - [ ] Code Section
 
+### Desktop
+
+- [ ] Two Panel Layout
+- [ ] Post Grid
+- [ ] Content Gutters
 
 Updates
 --------------------------------------------------------------------

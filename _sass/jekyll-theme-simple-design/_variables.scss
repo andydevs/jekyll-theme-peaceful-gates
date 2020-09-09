@@ -1,16 +1,23 @@
-$spacing-unit: 16pt;
+// Fonts
+$font-family: "Calibri", "Arial", sans-serif !default;
+$code-font-family: "Consolas", monospace !default;
+
+// Spacing unit
+$spacing-unit: 16pt !default;
 $spacing-1: $spacing-unit / 4;
 $spacing-2: $spacing-unit / 2;
 $spacing-3: $spacing-unit;
 
-$white-color: white;
-$light-gray-color: #ccc;
-$dark-gray-color: #555;
-$black-color: black;
+// Coloring
+$white-color: white !default;
+$light-gray-color: #ccc !default;
+$dark-gray-color: #555 !default;
+$black-color: black !default;
 
-$mega-font-size: 28pt;
-$large-font-size: 20pt;
-$medium-font-size: 16pt;
-$normal-font-size: 12pt;
-
-$icon-font-size: 28pt;
+// Font sizes
+$icon-font-size: 28pt !default;
+$mega-font-size: 28pt !default;
+$large-font-size: 20pt !default;
+$medium-font-size: 16pt !default;
+$normal-font-size: 12pt !default;
+$small-font-size: 8pt !default;
