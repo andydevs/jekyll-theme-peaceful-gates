@@ -8,11 +8,6 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### More Documentation and Pages
-
-- [x] Usage Page
-- [x] 404 Page
-
 ### Fixes
 
 - [ ] Fix table system
@@ -40,6 +35,11 @@ Updates
 
 Changelog
 --------------------------------------------------------------------
+
+### 0.3.1: More Documentation and Pages
+
+- [x] Usage Page
+- [x] 404 Page
 
 ### 0.3.0: Styling
 
