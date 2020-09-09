@@ -19,6 +19,8 @@ links:
     text: Showcase
   - url: '/usage'
     text: Usage
+  - url: '/bogus'
+    text: Bogus
 
 # Social media
 social:

@@ -66,12 +66,15 @@
     padding-right: $spacing-1;
     text-align: right;
 
-    & > li > a {
-        color: $black-color;
-        text-decoration: none;
-        font-size: $medium-font-size;
-        &:hover {
-            text-decoration: underline;
+    & > li {
+        margin: $spacing-2 0pt;
+        > a {
+            color: $black-color;
+            text-decoration: none;
+            font-size: $large-font-size;
+            &:hover {
+                text-decoration: underline;
+            }
         }
     }
 }

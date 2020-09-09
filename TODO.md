@@ -10,8 +10,8 @@ Upcoming
 
 ### More Documentation and Pages
 
-- [ ] Usage Page
-- [ ] 404 Page
+- [x] Usage Page
+- [x] 404 Page
 
 ### Fixes
 
