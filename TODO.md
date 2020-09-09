@@ -12,7 +12,6 @@ Upcoming
 
 - [ ] Usage Page
 - [ ] Post Page
-- [ ] Post Index Page
 
 ### Desktop
 
