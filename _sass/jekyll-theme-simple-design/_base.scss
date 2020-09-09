@@ -7,7 +7,7 @@ body {
 }
 
 a {
-    color: $black-color;
+    color: inherit;
     &:hover {
         text-decoration: none;
     }
