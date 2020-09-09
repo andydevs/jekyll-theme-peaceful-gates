@@ -3,8 +3,4 @@
 .sass-cache
 .jekyll-cache
 _site
-_posts
-_config.yml
-assets/images/experiments-with-css-grid
-assets/images/the-site-looks-different
 Gemfile.lock

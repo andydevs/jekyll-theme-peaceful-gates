@@ -1,0 +1,37 @@
+# Site info
+title: Simple Design
+description: >
+  Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+  sed do eiusmod tempor incididunt ut labore et dolore magna 
+  aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+  ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+  Duis aute irure dolor in reprehenderit in voluptate velit 
+  esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
+  occaecat cupidatat non proident, sunt in culpa qui officia 
+  deserunt mollit anim id est laborum.
+copyright:
+  author: Anshul Kharbanda
+  year: 2020
+
+# Page links
+links:
+  - url: '/showcase'
+    text: Showcase
+  - url: '/usage'
+    text: Usage
+  - url: '/post'
+    text: Post Example
+
+# Social media
+social:
+  youtube: PewDiePie
+  linkedin: anshul-kharbanda-03433712b
+  twitter: "@example"
+  instagram: khartography_and_linguistics
+  facebook: Anshul.Kharbanda.1997
+  github: example
+  email: example@mail.com
+
+# Build details
+exclude:
+  - TODO.md
