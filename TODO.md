@@ -11,7 +11,6 @@ Upcoming
 ### More Documentation
 
 - [ ] Usage Page
-- [ ] Post Page
 
 ### Desktop
 
