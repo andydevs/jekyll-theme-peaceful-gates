@@ -15,7 +15,11 @@
             </div>
             <ul class="menu-links">
                 {%- for link in site.links -%}
-                    <li><a href="{% link link.url %}">{{ link.text }}</a></li>
+                    <li>
+                        <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
+                            {{ link.text }}
+                        </a>
+                    </li>
                 {%- endfor -%}
             </ul>
             <footer class="footer">
@@ -61,7 +65,6 @@
                             <span class="fas fa-envelope"></span>
                         </a>
                     {%- endif -%}
-
                 </div>
                 <p class="site-description">
                     {{ site.description }}

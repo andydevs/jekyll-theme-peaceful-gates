@@ -8,11 +8,6 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Fixes
-
-- [ ] Fix table system
-- [ ] Use better html tags (article for post)
-
 ### Darkmode
 
 - [ ] Toggle
@@ -24,6 +19,11 @@ Upcoming
 - [ ] Block Quote
 - [ ] Code Section
 
+### Fixes
+
+- [ ] Fix table system
+- [ ] Use better html tags (article for post)
+
 ### Desktop
 
 - [ ] Two Panel Layout
@@ -32,6 +32,8 @@ Upcoming
 
 Updates
 --------------------------------------------------------------------
+
+- FIX footer text size and icon size lowered
 
 Changelog
 --------------------------------------------------------------------

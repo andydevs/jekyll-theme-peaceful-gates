@@ -78,37 +78,3 @@
         }
     }
 }
-
-.footer {
-    text-align: center;
-}
-
-.site-description {
-    text-align: justify;
-}
-
-.copyright {
-    font-style: italic;
-    color: $dark-gray-color;
-}
-
-.social-link {
-    // Sizing and spacing
-    margin: $spacing-1;
-
-    // Manually set width and height
-    width: $icon-font-size + 2*$spacing-1;
-    height: $icon-font-size + 2*$spacing-1;
-    border-radius: $icon-font-size;
-
-    // Center icon
-    display: inline-grid;
-    grid-template-rows: 1fr;
-    grid-template-columns: 1fr;
-    place-items: center;
-
-    // Style icon
-    font-size: $icon-font-size;
-    text-decoration: none;
-    color: $black-color;
-}
