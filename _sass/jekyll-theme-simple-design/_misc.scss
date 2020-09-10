@@ -1,6 +1,9 @@
-.show-on-mobile {
-    // visibility: hidden;
+.show-on-auto {
+    display: none;
 }
+
+.text-normal { font-size: $normal-font-size; }
+.text-small { font-size: $small-font-size; }
 
 .button-group {
     display: flex;
@@ -32,6 +35,8 @@
     padding: $spacing-2;
     border: none;
     font-size: $icon-font-size;
+    display: flex;
+    align-items: center;
 }
 
 .page-header {
