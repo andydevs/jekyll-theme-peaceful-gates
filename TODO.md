@@ -38,32 +38,32 @@ Changelog
 
 #### 0.4.3 Fixed link to homepage
 
-- FIX link to homepage
+- FIX link to homepage (9 - 10 - 2020)
 
 #### 0.4.2 Better HTML Tags
 
-- [x] Improved Menu
-- [x] Improved Main
-- [x] Improved Post
+- [x] Improved Menu (9 - 10 - 2020)
+- [x] Improved Main (9 - 10 - 2020)
+- [x] Improved Post (9 - 10 - 2020)
 
 #### 0.4.1: Darkmode Persists
 
-- [x] Darkmode persists
+- [x] Darkmode persists (9 - 9 - 2020)
 
 ### 0.4.0: Darkmode
 
-- [x] Style
-- [x] Toggle
-- FIX footer text size and icon size lowered
+- [x] Style (9 - 9 - 2020)
+- [x] Toggle (9 - 9 - 2020)
+- FIX footer text size and icon size lowered (9 - 9 - 2020)
 
 #### 0.3.2: Link URLs
 
-- Fix link URL (added baseurl)
+- Fix link URL (added baseurl) (9 - 9 - 2020)
 
 #### 0.3.1: More Documentation and Pages
 
-- [x] Usage Page
-- [x] 404 Page
+- [x] Usage Page (9 - 8 - 2020)
+- [x] 404 Page (9 - 8 - 2020)
 
 ### 0.3.0: Styling
 
