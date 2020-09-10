@@ -8,14 +8,14 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Better HTML Tags
-
-- [ ] Use better html tags
-
 ### Better Darkmode
 
 - [ ] Transition
 - [ ] Auto-Toggle
+
+### Better HTML Tags
+
+- [ ] Use better html tags
 
 ### Better Table System
 
