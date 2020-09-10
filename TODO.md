@@ -38,6 +38,10 @@ Updates
 Changelog
 --------------------------------------------------------------------
 
+#### 0.4.1: Darkmode Persists
+
+- [x] Darkmode persists
+
 ### 0.4.0: Darkmode
 
 - [x] Style
