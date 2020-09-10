@@ -1,7 +1,7 @@
 <div class="menu-window" id="menu-window">
-    <div class="menu" id="menu">
+    <nav class="menu" id="menu">
         <div class="menu-container">
-            <div class="menu-header">
+            <header class="menu-header">
                 <div class="menu-header-left">
                     <button class="icon-button show-on-mobile" id="close-menu">
                         <span class="fas fa-chevron-left"></span>
@@ -15,7 +15,7 @@
                         {{ site.title }}
                     </a>
                 </div>
-            </div>
+            </header>
             <ul class="menu-links">
                 {%- for link in site.links -%}
                     <li>
@@ -77,5 +77,5 @@
                 </p>
             </footer>
         </div>
-    </div>
+    </nav>
 </div>
