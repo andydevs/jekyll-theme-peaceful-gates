@@ -13,12 +13,6 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Better HTML Tags
-
-- [x] Improved Menu
-- [x] Improved Main
-- [x] Improved Post
-
 ### Better Table System
 
 - [ ] Research how ruby code works with Jekyll Themes
@@ -38,6 +32,12 @@ Updates
 
 Changelog
 --------------------------------------------------------------------
+
+#### 0.4.2 Better HTML Tags
+
+- [x] Improved Menu
+- [x] Improved Main
+- [x] Improved Post
 
 #### 0.4.1: Darkmode Persists
 
