@@ -19,6 +19,10 @@ Upcoming
 - [ ] Create Table Converter Gem
 - [ ] Incorporate Table System
 
+#### Link Fix
+
+- [ ] Options to link to direct url and not prepend site base url
+
 ### Desktop
 
 - [ ] Two Panel Layout
