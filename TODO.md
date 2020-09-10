@@ -16,7 +16,7 @@ Upcoming
 ### Better HTML Tags
 
 - [x] Improved Menu
-- [ ] Improved Main
+- [x] Improved Main
 - [ ] Improved Post
 
 ### Better Table System
