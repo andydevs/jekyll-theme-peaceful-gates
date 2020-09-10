@@ -15,7 +15,6 @@ Upcoming
 ### Better Darkmode
 
 - [ ] Transition
-- [ ] Local Storage
 - [ ] Auto-Toggle
 
 ### Better Table System
