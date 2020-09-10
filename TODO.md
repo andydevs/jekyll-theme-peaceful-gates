@@ -17,7 +17,7 @@ Upcoming
 
 - [x] Improved Menu
 - [x] Improved Main
-- [ ] Improved Post
+- [x] Improved Post
 
 ### Better Table System
 

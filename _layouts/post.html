@@ -2,14 +2,16 @@
 layout: default
 ---
 
-<!-- Page Title -->
-{%- capture subtitle -%}
-    {%- if page.date -%}
-        {{ page.date | date_to_string: 'ordinal', 'US' }}
-    {%- endif -%}
-{%- endcapture -%}
-{%- include page-header.html
-    title=page.title
-    subtitle=subtitle -%}
-
-{{ content }}
+<!-- Article -->
+<article>
+    <!-- Page Title -->
+    {%- capture subtitle -%}
+        {%- if page.date -%}
+            {{ page.date | date_to_string: 'ordinal', 'US' }}
+        {%- endif -%}
+    {%- endcapture -%}
+    {%- include page-header.html
+        title=page.title
+        subtitle=subtitle -%}
+    {{ content }}
+</article>
