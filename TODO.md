@@ -28,10 +28,12 @@ Upcoming
 Updates
 --------------------------------------------------------------------
 
-- FIX footer text size and icon size lowered
-
 Changelog
 --------------------------------------------------------------------
+
+#### 0.4.3 Fixed link to homepage
+
+- FIX link to homepage
 
 #### 0.4.2 Better HTML Tags
 
@@ -47,6 +49,7 @@ Changelog
 
 - [x] Style
 - [x] Toggle
+- FIX footer text size and icon size lowered
 
 #### 0.3.2: Link URLs
 
