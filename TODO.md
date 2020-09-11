@@ -13,6 +13,10 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
+#### 404 Page fix
+
+- [ ] Fix link redirect on 404 page
+
 ### Better Table System
 
 - [ ] Auto size table by line break
@@ -29,6 +33,11 @@ Upcoming
 - [ ] Two Panel Layout
 - [ ] Post Grid
 - [ ] Content Gutters
+
+### Rebranding
+
+- [ ] Rename to Peaceful Gates
+- [ ] Introduce two tone design
 
 Updates
 --------------------------------------------------------------------
