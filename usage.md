@@ -4,7 +4,7 @@ title: Usage
 ---
 
 Layouts
-----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 
 Layouts include 'page', 'post', 'centered', and 'post-index'.
 
@@ -18,7 +18,7 @@ layed out. This is used in the index page of this site.
 This is used by the [404 Page](/bogus)
 
 Variables
-----------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------
 
 Create an 'assets/css/main.scss' file, and import the style library.
 Variables are set before the import
@@ -33,106 +33,40 @@ Variables are set before the import
 @import "{{ site.theme }}"
 ```
 
-<!-- Table -->
-<div class="horizontal-scroll">
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Variables</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Font</td>
-                <td>
-                    <code>$font-family</code> <br>
-                    <code>$code-font-family</code>
-                </td>
-            </tr>
-            <tr>
-                <td>Spacing</td>
-                <td>
-                    <code>$spacing-unit</code>
-                </td>
-            </tr>
-            <tr>
-                <td>Font Size</td>
-                <td>
-                    <code>$mega-font-size</code> <br>
-                    <code>$large-font-size</code> <br>
-                    <code>$medium-font-size</code> <br>
-                    <code>$normal-font-size</code> <br>
-                    <code>$small-font-size</code>
-                </td>
-            </tr>
-            <tr>
-                <td>Colors</td>
-                <td>
-                    <code>$white-color</code> <br>
-                    <code>$light-gray-color</code> <br>
-                    <code>$dark-gray-color</code> <br>
-                    <code>$black-color</code>
-                </td>
-            </tr>
-        </tbody>
-    </table>
-</div>
+| Category  | Variables                                                                                                           |
+|:----------|:--------------------------------------------------------------------------------------------------------------------|
+| Font      | `$font-family` <br> `$code-font-family`                                                                             |
+| Spacing   | `$spacing-unit`                                                                                                     |
+| Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
+| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
 
-### Notes
+Dynamic Tables
+-----------------------------------------------------------------------------------------------------------------------------------
 
-Currently, dynamic tables need to be fixed so that they work with Markdown.
-To fix this, tables will need to be manually entered using html. For example,
-the above table is written as:
+Dynamic Tables maintain equal width cells on small displays and allow horizontal scrolling through the table. To make a table 
+dynamic in Markdown, wrap the table in a `horizontal-scroll` div as follows:
 
-```html
-<div class="horizontal-scroll">
-    <table>
-        <thead>
-            <tr>
-                <th>Category</th>
-                <th>Variables</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Font</td>
-                <td>
-                    <code>$font-family</code> <br>
-                    <code>$code-font-family</code>
-                </td>
-            </tr>
-            <tr>
-                <td>Spacing</td>
-                <td>
-                    <code>$spacing-unit</code>
-                </td>
-            </tr>
-            <tr>
-                <td>Font Size</td>
-                <td>
-                    <code>$mega-font-size</code> <br>
-                    <code>$large-font-size</code> <br>
-                    <code>$medium-font-size</code> <br>
-                    <code>$normal-font-size</code> <br>
-                    <code>$small-font-size</code>
-                </td>
-            </tr>
-            <tr>
-                <td>Colors</td>
-                <td>
-                    <code>$white-color</code> <br>
-                    <code>$light-gray-color</code> <br>
-                    <code>$dark-gray-color</code> <br>
-                    <code>$black-color</code>
-                </td>
-            </tr>
-        </tbody>
-    </table>
+_Note: make sure there are empty lines between the html tags and the markdown table._
+
+```markdown
+<div class='horizontal-scroll' markdown='block'>
+
+| Category  | Variables                                                                                                           |
+|:---------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Font      | `$font-family` <br> `$code-font-family`                                                                             |
+| Spacing   | `$spacing-unit`                                                                                                     |
+| Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
+| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
+
 </div>
 ```
+<div class='horizontal-scroll' markdown='block'>
 
-Alternatively, you can configure `parse_block_html` in your 'config.yml'
-To allow for markdown table formatting, although you will need to surround
-your table with `<div class="horizontal-scroll">`. This will be fixed in the
-future.
+| Category  | Variables                                                                                                           |
+|:----------|:--------------------------------------------------------------------------------------------------------------------|
+| Font      | `$font-family` <br> `$code-font-family`                                                                             |
+| Spacing   | `$spacing-unit`                                                                                                     |
+| Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
+| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
+
+</div>

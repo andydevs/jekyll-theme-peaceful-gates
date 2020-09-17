@@ -40,13 +40,14 @@ table {
     border-collapse: collapse;
     table-layout: fixed;
     margin: 0pt;
-    width: 100%;
+    min-width: 100%;
+    overflow: hidden;
     th,td {
         margin: 0pt;
         padding: $spacing-2;
         overflow: hidden;
-        text-align: center;
         border-bottom: 1px solid $black-color;
+        white-space: nowrap;
     }
     tr:last-child {
         td {

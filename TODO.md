@@ -7,18 +7,40 @@ Didn't Work
 
 - Auto Toggle Darkmode 
 
+### Table Converter Gem (9 - 17 - 2020)
+
+- [x] Research how ruby code works with Jekyll Themes (9 - 17 - 2020)
+- [ ] Create Table Converter Gem
+- [ ] Incorporate Table System
+
+#### Workaround (9 - 17 - 2020)
+
+Just wrap markdown table using following format
+
+```markdown
+<div class='horizontal-scroll' markdown='block'>
+
+| Category  | Variables                                                                                                           |
+|:---------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Font      | `$font-family` <br> `$code-font-family`                                                                             |
+| Spacing   | `$spacing-unit`                                                                                                     |
+| Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
+| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
+
+</div>
+```
+
 Backlog
 --------------------------------------------------------------------
 
 Upcoming
 --------------------------------------------------------------------
 
-### Better Table System
+#### Better Tables
 
 - [x] Auto size table by line break (9 - 17 - 2020)
-- [x] Research how ruby code works with Jekyll Themes (9 - 17 - 2020)
-- [ ] Create Table Converter Gem
-- [ ] Incorporate Table System
+- [x] Incorporated workaround into usage page (9 - 17 - 2020)
+- [x] Non-dynamic tables (9 - 17 - 2020)
 
 #### Link Fix
 
