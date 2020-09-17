@@ -6,11 +6,16 @@ title: Usage
 Layouts
 ----------------------------------------------------------------------------
 
-For now, 'page' and 'post', are exactly the same. This will be changed in
-the future, but mostly in terms of metadata.
+Layouts include 'page', 'post', 'centered', and 'post-index'.
+
+'page' and 'post' are mostly the same, except 'post' wraps content in an
+`article` tag and is used for main post.
 
 Simple Design provides the 'post-index' layout to display an index of posts
 layed out. This is used in the index page of this site.
+
+'centered' is for content that is positioned in the center of the screen.
+This is used by the [404 Page](/bogus)
 
 Variables
 ----------------------------------------------------------------------------
