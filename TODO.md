@@ -36,27 +36,6 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Better Tables
-
-- [x] Auto size table by line break (9 - 17 - 2020)
-- [x] Incorporated workaround into usage page (9 - 17 - 2020)
-- [x] Non-dynamic tables (9 - 17 - 2020)
-
-### Link Fix
-
-- [x] Option to link to direct url and not prepend site base url
-
-### Footer fix
-
-- [x] Footer copyright pulls from author and not copyright.author
-- [x] Copyright is only year
-
-### _config.yml Documentation
-
-- [x] Footer
-- [x] Links
-- [x] Social
-
 ### Desktop
 
 - [ ] Two Panel Layout
@@ -73,6 +52,29 @@ Updates
 
 Changelog
 --------------------------------------------------------------------
+
+### 0.4.5: Fixed everything!
+
+#### Better Tables
+
+- [x] Auto size table by line break (9 - 17 - 2020)
+- [x] Incorporated workaround into usage page (9 - 17 - 2020)
+- [x] Non-dynamic tables (9 - 17 - 2020)
+
+#### Link Fix
+
+- [x] Option to link to direct url and not prepend site base url
+
+#### Footer fix
+
+- [x] Footer copyright pulls from author and not copyright.author
+- [x] Copyright is only year
+
+#### _config.yml Documentation
+
+- [x] Footer
+- [x] Links
+- [x] Social
 
 #### 0.4.4: 404 Page fix
 
