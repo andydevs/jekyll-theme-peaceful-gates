@@ -15,7 +15,7 @@ Upcoming
 
 #### 404 Page fix
 
-- [ ] Fix link redirect on 404 page
+- [x] Fix link redirect on 404 page
 
 ### Better Table System
 
