@@ -53,7 +53,7 @@ Upcoming
 
 ### _config.yml Documentation
 
-- [ ] Author
+- [x] Footer
 - [ ] Links
 - [ ] Social
 

@@ -3,6 +3,14 @@ layout: page
 title: Usage
 ---
 
+Menu Configuration (in `_config.yml`)
+------------------------------------------------------------------------------------------------------------------------------------
+
+### Footer
+
+The footer contains the site description (set at `description`) as well as the copyright notice. The copyright year is set by
+`copyright`, and the author is pulled from `author`.
+
 Layouts
 ------------------------------------------------------------------------------------------------------------------------------------
 
