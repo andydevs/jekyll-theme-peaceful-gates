@@ -16,7 +16,7 @@ Upcoming
 ### Better Table System
 
 - [x] Auto size table by line break
-- [ ] Research how ruby code works with Jekyll Themes
+- [x] Research how ruby code works with Jekyll Themes
 - [ ] Create Table Converter Gem
 - [ ] Incorporate Table System
 
