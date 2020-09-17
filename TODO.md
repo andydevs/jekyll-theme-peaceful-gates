@@ -13,10 +13,6 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-#### 404 Page fix
-
-- [x] Fix link redirect on 404 page
-
 ### Better Table System
 
 - [ ] Auto size table by line break
@@ -44,6 +40,10 @@ Updates
 
 Changelog
 --------------------------------------------------------------------
+
+#### 0.4.4: 404 Page fix
+
+- [x] Fix link redirect on 404 page
 
 #### 0.4.3 Fixed link to homepage
 
