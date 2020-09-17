@@ -15,8 +15,8 @@ Upcoming
 
 ### Better Table System
 
-- [x] Auto size table by line break
-- [x] Research how ruby code works with Jekyll Themes
+- [x] Auto size table by line break (9 - 17 - 2020)
+- [x] Research how ruby code works with Jekyll Themes (9 - 17 - 2020)
 - [ ] Create Table Converter Gem
 - [ ] Incorporate Table System
 
@@ -43,7 +43,7 @@ Changelog
 
 #### 0.4.4: 404 Page fix
 
-- [x] Fix link redirect on 404 page
+- [x] Fix link redirect on 404 page (9 - 17 - 2020)
 
 #### 0.4.3 Fixed link to homepage
 
