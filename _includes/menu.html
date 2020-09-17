@@ -19,9 +19,15 @@
             <ul class="menu-links">
                 {%- for link in site.links -%}
                     <li>
-                        <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
-                            {{ link.text }}
-                        </a>
+                        {%- if link.direct -%}
+                            <a href="{{ link.url }}">
+                                {{ link.text }}
+                            </a>
+                        {%- else -%}
+                            <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
+                                {{ link.text }}
+                            </a>
+                        {%- endif -%}
                     </li>
                 {%- endfor -%}
             </ul>
@@ -73,7 +79,7 @@
                     {{ site.description }}
                 </p>
                 <p class="copyright">
-                    Copyright &copy; {{ site.copyright.year }} {{ site.copyright.author }}
+                    Copyright &copy; {{ site.copyright }} {{ site.author }}
                 </p>
             </footer>
         </div>

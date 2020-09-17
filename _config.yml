@@ -3,6 +3,7 @@ baseurl: /jekyll-theme-simple-design
 
 # Site info
 title: Simple Design
+author: John Appleseed
 description: >
   Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
   sed do eiusmod tempor incididunt ut labore et dolore magna 
@@ -12,9 +13,7 @@ description: >
   esse cillum dolore eu fugiat nulla pariatur. Excepteur sint 
   occaecat cupidatat non proident, sunt in culpa qui officia 
   deserunt mollit anim id est laborum.
-copyright:
-  author: Anshul Kharbanda
-  year: 2020
+copyright: 2020
 
 # Page links
 links:
@@ -24,6 +23,9 @@ links:
     text: Usage
   - url: '/bogus'
     text: Bogus
+  - url: 'http://andydevs.github.io'
+    text: External
+    direct: true
 
 # Social media
 social:
