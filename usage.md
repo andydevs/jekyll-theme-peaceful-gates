@@ -3,8 +3,39 @@ layout: page
 title: Usage
 ---
 
-Menu Configuration (in `_config.yml`)
+`_config.yml`
 ------------------------------------------------------------------------------------------------------------------------------------
+
+### Links
+
+The menu links are populated by the `links` config. `links` is an array of objects containing `url`, or the url of the page and `text`, or the text to display. By default, the link url is prepended with the site url. To provide a direct link url, set `direct` to `true` in the link object.
+
+```yml
+# Page links
+links:
+  - url: '/showcase'
+    text: Showcase
+  - url: '/usage'
+    text: Usage
+  - url: '/bogus'
+    text: Bogus
+    # Example of direct link
+  - url: 'http://andydevs.github.io'
+    text: External
+    direct: true
+```
+
+### Social
+
+Social media links in the footer can be configured using the `social` object. The following social options are provided:
+
+- `social.youtube`
+- `social.linkedin`
+- `social.twitter`
+- `social.instagram`
+- `social.facebook`
+- `social.github`
+- `social.email`
 
 ### Footer
 

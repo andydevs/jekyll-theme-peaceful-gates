@@ -54,8 +54,8 @@ Upcoming
 ### _config.yml Documentation
 
 - [x] Footer
-- [ ] Links
-- [ ] Social
+- [x] Links
+- [x] Social
 
 ### Desktop
 
