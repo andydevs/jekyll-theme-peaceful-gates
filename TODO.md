@@ -47,7 +47,7 @@ Upcoming
         - [x] Update _config.yml (9 - 20 - 2020)
     - [x] Gemspec (9 - 20 - 2020)
     - [x] Then change links (9 - 20 - 2020)
-    - [ ] Git Repo
+    - [x] Git Repo
     - [ ] Blog
 - [ ] Introduce two tone design
     - [ ] Primary Color
