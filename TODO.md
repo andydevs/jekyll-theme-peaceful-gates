@@ -39,7 +39,17 @@ Upcoming
 ### Rebranding
 
 - [ ] Rename to Peaceful Gates
+    - [ ] Documentation
+        - [ ] Update README.md
+        - [ ] Update TODO.md
+        - [ ] Update _config.yml
+    - [ ] Gemspec
+    - [ ] Git Repo
+    - [ ] Blog
 - [ ] Introduce two tone design
+    - [ ] Primary Color
+    - [ ] Secondary Color
+    - [ ] Light and Dark Variants
 
 ### Desktop
 
