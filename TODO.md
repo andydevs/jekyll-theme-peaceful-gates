@@ -41,14 +41,14 @@ Upcoming
 - [ ] Rename to Peaceful Gates
     - [ ] Documentation
         - [x] Update TODO.md (9 - 20 - 2020)
-        - [ ] Update README.md
+        - [x] Update README.md (9 - 20 - 2020)
             - [x] Overview (9 - 20 - 2020)
             - [x] Usage (9 - 20 - 2020)
-            - [ ] Then change links
         - [ ] Update _config.yml
     - [ ] Gemspec
     - [ ] Git Repo
     - [ ] Blog
+    - [ ] Then change links
 - [ ] Introduce two tone design
     - [ ] Primary Color
     - [ ] Secondary Color
