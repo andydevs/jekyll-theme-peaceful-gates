@@ -1,6 +1,6 @@
 # jekyll-theme-simple-design
 
-The main design for the blog [Andydevs](http://andydevs.github.io). View the theme itself by 
+The main design for the blog [Andydevs](http://andydevs.github.io). View the theme itself by
 checking out the [main site](http://andydevs.github.io/jekyll-theme-simple-design), or by viewing
 the [showcase](http://andydevs.github.io/jekyll-theme-simple-design/showcase).
 
@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here. Describe your available layouts, includes, sass and/or assets.
+Refer to the [usage page](http://andydevs.github.io/jekyll-theme-simple-design/usage.md)
 
 ## Contributing
 

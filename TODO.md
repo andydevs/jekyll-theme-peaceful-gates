@@ -43,7 +43,7 @@ Upcoming
         - [x] Update TODO.md (9 - 20 - 2020)
         - [ ] Update README.md
             - [x] Overview (9 - 20 - 2020)
-            - [ ] Usage
+            - [x] Usage (9 - 20 - 2020)
             - [ ] Then change links
         - [ ] Update _config.yml
     - [ ] Gemspec
