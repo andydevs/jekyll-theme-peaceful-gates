@@ -36,16 +36,16 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
+### Rebranding
+
+- [ ] Rename to Peaceful Gates
+- [ ] Introduce two tone design
+
 ### Desktop
 
 - [ ] Two Panel Layout
 - [ ] Post Grid
 - [ ] Content Gutters
-
-### Rebranding
-
-- [ ] Rename to Peaceful Gates
-- [ ] Introduce two tone design
 
 Updates
 --------------------------------------------------------------------
