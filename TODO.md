@@ -45,7 +45,7 @@ Upcoming
             - [x] Overview (9 - 20 - 2020)
             - [x] Usage (9 - 20 - 2020)
         - [x] Update _config.yml (9 - 20 - 2020)
-    - [ ] Gemspec
+    - [x] Gemspec (9 - 20 - 2020)
     - [ ] Git Repo
     - [ ] Then change links
     - [ ] Blog
