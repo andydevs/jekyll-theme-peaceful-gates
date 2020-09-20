@@ -1,0 +1,20 @@
+// Font awesome config
+$fa-font-path: "/assets/fonts";
+
+// Imports
+@import "./fontawesome/fontawesome.scss";
+@import "./fontawesome/solid.scss";
+@import "./fontawesome/brands.scss";
+@import "./jekyll-theme-peaceful-gates/variables";
+@import "./jekyll-theme-peaceful-gates/base";
+@import "./jekyll-theme-peaceful-gates/code";
+@import "./jekyll-theme-peaceful-gates/menu";
+@import "./jekyll-theme-peaceful-gates/footer";
+@import "./jekyll-theme-peaceful-gates/homepage";
+@import "./jekyll-theme-peaceful-gates/centered";
+@import "./jekyll-theme-peaceful-gates/misc";
+@import "./jekyll-theme-peaceful-gates/darkmode/base";
+@import "./jekyll-theme-peaceful-gates/darkmode/code";
+@import "./jekyll-theme-peaceful-gates/darkmode/menu";
+@import "./jekyll-theme-peaceful-gates/darkmode/footer";
+@import "./jekyll-theme-peaceful-gates/darkmode/misc";
