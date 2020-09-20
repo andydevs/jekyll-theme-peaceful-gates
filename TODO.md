@@ -42,6 +42,9 @@ Upcoming
     - [ ] Documentation
         - [x] Update TODO.md (9 - 20 - 2020)
         - [ ] Update README.md
+            - [x] Overview (9 - 20 - 2020)
+            - [ ] Usage
+            - [ ] Then change links
         - [ ] Update _config.yml
     - [ ] Gemspec
     - [ ] Git Repo
