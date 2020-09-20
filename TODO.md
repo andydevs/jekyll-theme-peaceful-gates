@@ -46,8 +46,8 @@ Upcoming
             - [x] Usage (9 - 20 - 2020)
         - [x] Update _config.yml (9 - 20 - 2020)
     - [x] Gemspec (9 - 20 - 2020)
+    - [x] Then change links (9 - 20 - 2020)
     - [ ] Git Repo
-    - [ ] Then change links
     - [ ] Blog
 - [ ] Introduce two tone design
     - [ ] Primary Color

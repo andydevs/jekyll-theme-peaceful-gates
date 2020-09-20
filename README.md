@@ -44,6 +44,6 @@ The theme is available as open source under the terms of the [MIT License][mit].
 
 [mit]: https://opensource.org/licenses/MIT
 [andydevs]: http://andydevs.github.io
-[main]: http://andydevs.github.io/jekyll-theme-simple-design
-[showcase]: http://andydevs.github.io/jekyll-theme-simple-design/showcase
-[usage]: http://andydevs.github.io/jekyll-theme-simple-design/usage
+[main]: http://andydevs.github.io/jekyll-theme-peaceful-gates
+[showcase]: http://andydevs.github.io/jekyll-theme-peaceful-gates/showcase
+[usage]: http://andydevs.github.io/jekyll-theme-peaceful-gates/usage
