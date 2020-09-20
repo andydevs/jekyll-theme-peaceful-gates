@@ -44,11 +44,11 @@ Upcoming
         - [x] Update README.md (9 - 20 - 2020)
             - [x] Overview (9 - 20 - 2020)
             - [x] Usage (9 - 20 - 2020)
-        - [ ] Update _config.yml
+        - [x] Update _config.yml (9 - 20 - 2020)
     - [ ] Gemspec
     - [ ] Git Repo
-    - [ ] Blog
     - [ ] Then change links
+    - [ ] Blog
 - [ ] Introduce two tone design
     - [ ] Primary Color
     - [ ] Secondary Color
