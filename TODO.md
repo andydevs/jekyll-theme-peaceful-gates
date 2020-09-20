@@ -38,8 +38,8 @@ Upcoming
 
 ### Rebranding
 
-- [ ] Rename to Peaceful Gates
-    - [ ] Documentation
+- [x] Rename to Peaceful Gates (9 - 20 - 2020)
+    - [x] Documentation (9 - 20 - 2020)
         - [x] Update TODO.md (9 - 20 - 2020)
         - [x] Update README.md (9 - 20 - 2020)
             - [x] Overview (9 - 20 - 2020)
@@ -47,8 +47,8 @@ Upcoming
         - [x] Update _config.yml (9 - 20 - 2020)
     - [x] Gemspec (9 - 20 - 2020)
     - [x] Then change links (9 - 20 - 2020)
-    - [x] Git Repo
-    - [ ] Blog
+    - [x] Git Repo (9 - 20 - 2020)
+    - [x] Blog (9 - 20 - 2020)
 - [ ] Introduce two tone design
     - [ ] Primary Color
     - [ ] Secondary Color
