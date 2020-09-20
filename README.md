@@ -1,8 +1,7 @@
 # jekyll-theme-peaceful-gates
 
-The main design for the blog [Andydevs](http://andydevs.github.io). View the theme itself by
-checking out the [main site](http://andydevs.github.io/jekyll-theme-simple-design), or by viewing
-the [showcase](http://andydevs.github.io/jekyll-theme-simple-design/showcase).
+The main design for the blog [Andydevs][andydevs]. View the theme itself by
+checking out the [main site][main], or by viewing the [showcase][showcase].
 
 ## Installation
 
@@ -28,7 +27,7 @@ Or install it yourself as:
 
 ## Usage
 
-Refer to the [usage page](http://andydevs.github.io/jekyll-theme-simple-design/usage.md)
+Refer to the [usage page][usage]
 
 ## Development
 
@@ -41,5 +40,10 @@ To add a custom directory to your theme-gem, please edit the regexp in `jekyll-t
 
 ## License
 
-The theme is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+The theme is available as open source under the terms of the [MIT License][mit].
 
+[mit]: https://opensource.org/licenses/MIT
+[andydevs]: http://andydevs.github.io
+[main]: http://andydevs.github.io/jekyll-theme-simple-design
+[showcase]: http://andydevs.github.io/jekyll-theme-simple-design/showcase
+[usage]: http://andydevs.github.io/jekyll-theme-simple-design/usage
