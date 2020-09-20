@@ -1,4 +1,4 @@
-Simple Design: TODO
+Peaceful Gates: TODO
 ====================================================================
 Project Start Date: 8 - 23 - 2020
 
@@ -40,8 +40,8 @@ Upcoming
 
 - [ ] Rename to Peaceful Gates
     - [ ] Documentation
+        - [x] Update TODO.md (9 - 20 - 2020)
         - [ ] Update README.md
-        - [ ] Update TODO.md
         - [ ] Update _config.yml
     - [ ] Gemspec
     - [ ] Git Repo
