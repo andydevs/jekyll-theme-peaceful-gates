@@ -30,10 +30,6 @@ Or install it yourself as:
 
 Refer to the [usage page](http://andydevs.github.io/jekyll-theme-simple-design/usage.md)
 
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/hello. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
-
 ## Development
 
 To set up your environment to develop this theme, run `bundle install`.
