@@ -55,9 +55,15 @@ Upcoming
     - [x] Git Repo (9 - 20 - 2020)
     - [x] Blog (9 - 20 - 2020)
 - [ ] Introduce two tone design
-    - [ ] Primary Color
-    - [ ] Secondary Color
-    - [ ] Light and Dark Variants
+    - [x] Primary Color (9 - 21 - 2020)
+    - [x] Secondary Color (9 - 21 - 2020)
+    - [x] Light and Dark Variants (9 - 21 - 2020)
+    - [ ] Update usage
+
+### Better Darkmode
+
+- [ ] Use CSS Properties somehow
+- [ ] Maybe try the auto darkmode again
 
 ### Desktop
 
