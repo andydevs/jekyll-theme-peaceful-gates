@@ -22,7 +22,7 @@
     width: 100%;
     left: -100%;
 
-    background-color: $light-gray-color;
+    background-color: $light-primary-color;
     display: grid;
     grid-template-rows: auto;
     grid-auto-columns: auto;
@@ -44,6 +44,7 @@
         flex: 0 1 auto;
         display: flex;
         align-items: center;
+        color: $dark-secondary-color;
     }
 
     .menu-header-right {
@@ -56,7 +57,7 @@
     font-size: $mega-font-size;
     font-weight: bold;
     text-decoration: none;
-    color: $black-color;
+    color: $dark-secondary-color;
     &:hover {
         text-decoration: underline;
     }

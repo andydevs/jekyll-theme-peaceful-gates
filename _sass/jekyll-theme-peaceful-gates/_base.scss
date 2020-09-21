@@ -2,12 +2,10 @@ body {
     margin: 0;
 }
 
-* {
-    font-family: $font-family;
-}
+* { font-family: $font-family; }
 
 a {
-    color: inherit;
+    color: $primary-color;
     &:hover {
         text-decoration: none;
     }
@@ -20,6 +18,9 @@ a {
 
 h1,h2,h3,h4,h5,h6,p {
     @include page-section;
+}
+h1,h2,h3,h4,h5,h6 {
+    color: $primary-color;
 }
 
 img {
@@ -42,12 +43,16 @@ table {
     margin: 0pt;
     min-width: 100%;
     overflow: hidden;
+    th {
+        color: $primary-color;
+    }
     th,td {
         margin: 0pt;
         padding: $spacing-2;
         overflow: hidden;
-        border-bottom: 1px solid $black-color;
+        border-bottom: 1px solid $primary-color;
         white-space: nowrap;
+        text-align: center;
     }
     tr:last-child {
         td {
@@ -60,4 +65,5 @@ blockquote {
     @include page-section;
     margin-left: $spacing-3;
     font-size: $medium-font-size;
+    color: $primary-color;
 }

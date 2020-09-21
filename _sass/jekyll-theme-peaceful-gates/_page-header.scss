@@ -1,0 +1,29 @@
+.page-header {
+    margin: $spacing-3 0pt;
+    display: flex;
+    align-items: center;
+}
+
+.page-info {
+    flex: 1;
+    margin: 0pt;
+    color: $primary-color;
+}
+
+.page-actions {
+    flex: 0 1 auto;
+    > .icon-button {
+        color: $dark-secondary-color;
+    }
+}
+
+.page-title {
+    margin: 0pt;
+    font-size: $mega-font-size;
+}
+
+.page-subtitle {
+    margin: 0pt;
+    font-size: $medium-font-size;
+    font-weight: normal;
+}

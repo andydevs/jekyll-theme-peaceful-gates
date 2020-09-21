@@ -1,7 +1,7 @@
 code {
     font-family: $code-font-family;
     * { font-family: $code-font-family; }
-    color: $dark-gray-color;
+    color: $primary-color;
 }
 
 pre {
@@ -44,9 +44,9 @@ pre {
     // .cs    { color: darken($color: $white-color, $amount: 30%); font-weight: bold; font-style: italic } // Comment.Special
 
     // Keywords
-    .k     { font-weight: bold } // Keyword
+    .k     { font-weight: bold; color: $primary-color; } // Keyword
     // .kd    { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Declaration
-    .kt    { font-style: italic; } // Keyword.Type
+    .kt    { color: $primary-color; } // Keyword.Type
     // .kc    { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Constant
     // .kp    { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Pseudo
     // .kr    { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Reserved
@@ -77,7 +77,7 @@ pre {
     // .ne    { color: #900; font-weight: bold } // Name.Exception
     // .nf    { color: lighten($color: $back-color, $amount: 55%); font-weight: bold } // Name.Function
     // .nn    { color: darken($color: $white-color, $amount: 20%) } // Name.Namespace
-    .nt    { font-weight: bold; } // Name.Tag
+    .nt    { font-weight: bold; color: $primary-color; } // Name.Tag
     // .nv    { color: darken($color: $white-color, $amount: 20%) } // Name.Variable
     // .bp    { color: darken($color: $white-color, $amount: 20%) } // Name.Builtin.Pseudo
     // .vc    { color: darken($color: $white-color, $amount: 20%) } // Name.Variable.Class
@@ -85,7 +85,7 @@ pre {
     // .vi    { color: darken($color: $white-color, $amount: 20%) } // Name.Variable.Instance
     
     // Literal.Number
-    .m, .mf, .mh, .mi, .mo, .il { color: $dark-gray-color; }
+    .m, .mf, .mh, .mi, .mo, .il { color: $primary-color; }
     // .mf    { color: #880 } // Literal.Number.Float
     // .mh    { color: #880 } // Literal.Number.Hex
     // .mi    { color: #880 } // Literal.Number.Integer
@@ -93,7 +93,7 @@ pre {
     // .il    { color: #099 } // Literal.Number.Integer.Long
     
     // Literal.String
-    .s, .sb, .sc, .sd, .s2, .se, .si, .sx, .sr, .s1, .ss { color: $dark-gray-color; }
+    .s, .sb, .sc, .sd, .s2, .se, .si, .sx, .sr, .s1, .ss { color: $dark-secondary-color; }
     // .sb    { color: #d14 } // Literal.String.Backtick
     // .sc    { color: #d14 } // Literal.String.Char
     // .sd    { color: #d14 } // Literal.String.Doc

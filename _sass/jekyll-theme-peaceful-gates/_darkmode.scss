@@ -1,4 +1,35 @@
 .darkmode {
+    background-color: $black-color;
+    color: $white-color;
+
+    .menu {
+        background-color: $dark-gray-color;
+    }
+
+    .menu-title {
+        color: $white-color;
+    }
+
+    .menu-links > li > a {
+        color: $white-color;
+    }
+
+    .button {
+        color: $white-color;
+        background: $dark-gray-color;
+    }
+
+    .icon-button {
+        color: $white-color;
+    }
+
+    // Table Design
+    table {
+        th,td {
+            border-color: $white-color;
+        }
+    }
+    
     code {
         color: $light-gray-color;
     }
@@ -11,8 +42,8 @@
     }
 
     /**
-     * Syntax highlighting styles
-     */
+    * Syntax highlighting styles
+    */
     .highlight {
         // Highlight takes care of syntax highlighting stuff
         background-color: $dark-gray-color;
