@@ -36,6 +36,11 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
+### Fix/Add Latex support
+
+- [ ] Update showcase.html
+- [ ] Add latex support
+
 ### Rebranding
 
 - [x] Rename to Peaceful Gates (9 - 20 - 2020)
