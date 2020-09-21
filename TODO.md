@@ -54,11 +54,11 @@ Upcoming
     - [x] Then change links (9 - 20 - 2020)
     - [x] Git Repo (9 - 20 - 2020)
     - [x] Blog (9 - 20 - 2020)
-- [ ] Introduce two tone design
+- [x] Introduce two tone design (9 - 21 - 2020)
     - [x] Primary Color (9 - 21 - 2020)
     - [x] Secondary Color (9 - 21 - 2020)
     - [x] Light and Dark Variants (9 - 21 - 2020)
-    - [ ] Update usage
+    - [x] Update usage (9 - 21 - 2020)
 
 ### Better Darkmode
 

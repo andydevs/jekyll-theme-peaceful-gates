@@ -74,12 +74,14 @@ Variables are set before the import
 @import "{{ site.theme }}"
 ```
 
-| Category  | Variables                                                                                                           |
-|:----------|:--------------------------------------------------------------------------------------------------------------------|
-| Font      | `$font-family` <br> `$code-font-family`                                                                             |
-| Spacing   | `$spacing-unit`                                                                                                     |
+| Category | Variables |
+|:---|:---|
+| Font | `$font-family` <br> `$code-font-family` |
+| Spacing | `$spacing-unit` |
 | Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
-| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
+| Colors | `$white-color` <br> `$black-color` <br> `$primary-color` <br> `$secondary-color` <br> `$light-gray-color` <br> `$light-primary-color` <br> `$dark-gray-color` <br> `$dark-secondary-color` |
+
+_Note: Primary color is meant to be darker and secondary color brighter_
 
 Dynamic Tables
 ------------------------------------------------------------------------------------------------------------------------------------
@@ -92,22 +94,22 @@ _Note: make sure there are empty lines between the html tags and the markdown ta
 ```markdown
 <div class='horizontal-scroll' markdown='block'>
 
-| Category  | Variables                                                                                                           |
-|:---------:|:-------------------------------------------------------------------------------------------------------------------:|
-| Font      | `$font-family` <br> `$code-font-family`                                                                             |
-| Spacing   | `$spacing-unit`                                                                                                     |
+| Category | Variables |
+|:---|:---|
+| Font | `$font-family` <br> `$code-font-family` |
+| Spacing | `$spacing-unit` |
 | Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
-| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
+| Colors | `$white-color` <br> `$black-color` <br> `$primary-color` <br> `$secondary-color` <br> `$light-gray-color` <br> `$light-primary-color` <br> `$dark-gray-color` <br> `$dark-secondary-color` |
 
 </div>
 ```
 <div class='horizontal-scroll' markdown='block'>
 
-| Category  | Variables                                                                                                           |
-|:----------|:--------------------------------------------------------------------------------------------------------------------|
-| Font      | `$font-family` <br> `$code-font-family`                                                                             |
-| Spacing   | `$spacing-unit`                                                                                                     |
+| Category | Variables |
+|:---|:---|
+| Font | `$font-family` <br> `$code-font-family` |
+| Spacing | `$spacing-unit` |
 | Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
-| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
+| Colors | `$white-color` <br> `$black-color` <br> `$primary-color` <br> `$secondary-color` <br> `$light-gray-color` <br> `$light-primary-color` <br> `$dark-gray-color` <br> `$dark-secondary-color` |
 
 </div>
