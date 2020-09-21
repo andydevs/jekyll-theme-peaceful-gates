@@ -38,8 +38,8 @@ Upcoming
 
 ### Fix/Add Latex support
 
-- [ ] Update showcase.html
-- [ ] Add latex support
+- [x] Update showcase.html (9 - 21 - 2020)
+- [x] Add latex support (9 - 21 - 2020)
 
 ### Rebranding
 
