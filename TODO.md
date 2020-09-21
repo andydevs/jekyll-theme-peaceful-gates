@@ -36,12 +36,26 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Fix/Add Latex support
+### Better Darkmode
 
-- [x] Update showcase.html (9 - 21 - 2020)
-- [x] Add latex support (9 - 21 - 2020)
+- [ ] Use CSS Properties somehow
+- [ ] Maybe try the auto darkmode again
 
-### Rebranding
+### Desktop
+
+- [ ] Two Panel Layout
+- [ ] Post Grid
+- [ ] Content Gutters
+
+Updates
+--------------------------------------------------------------------
+
+Changelog
+--------------------------------------------------------------------
+
+### 0.5.0: Rebranded!
+
+#### Rebranding
 
 - [x] Rename to Peaceful Gates (9 - 20 - 2020)
     - [x] Documentation (9 - 20 - 2020)
@@ -60,24 +74,14 @@ Upcoming
     - [x] Light and Dark Variants (9 - 21 - 2020)
     - [x] Update usage (9 - 21 - 2020)
 
-### Better Darkmode
+#### Fix/Add Latex support
 
-- [ ] Use CSS Properties somehow
-- [ ] Maybe try the auto darkmode again
+- [x] Update showcase.html (9 - 21 - 2020)
+- [x] Add latex support (9 - 21 - 2020)
 
-### Desktop
-
-- [ ] Two Panel Layout
-- [ ] Post Grid
-- [ ] Content Gutters
-
-Updates
---------------------------------------------------------------------
+#### Updates
 
 - BUILD Added rakefile
-
-Changelog
---------------------------------------------------------------------
 
 ### 0.4.5: Fixed everything!
 

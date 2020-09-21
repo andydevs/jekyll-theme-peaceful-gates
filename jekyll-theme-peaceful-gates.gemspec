@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |spec|
   spec.name          = "jekyll-theme-peaceful-gates"
-  spec.version       = "0.4.5"
+  spec.version       = "0.5.0"
   spec.authors       = ["andydevs"]
   spec.email         = ["akanshul97@gmail.com"]
 
