@@ -53,6 +53,10 @@ Updates
 Changelog
 --------------------------------------------------------------------
 
+#### 0.5.2: Fix button color on darkmode.
+
+- FIX button color on darkmode
+
 #### 0.5.1: Fix copyright on darkmode.
 
 - FIX copyright color on darkmode
