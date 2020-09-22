@@ -1,0 +1,10 @@
+{
+    "files.exclude": {
+        "**/*.gem": true,
+        "**/.bundle": true,
+        "**/.sass-cache": true,
+        "**/.jekyll-cache": true,
+        "**/_site": true,
+        "**/Gemfile.lock": true
+    }
+}

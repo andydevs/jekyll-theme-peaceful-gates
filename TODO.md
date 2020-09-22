@@ -36,16 +36,16 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Better Darkmode
-
-- [ ] Use CSS Properties somehow
-- [ ] Maybe try the auto darkmode again
-
 ### Desktop
 
 - [ ] Two Panel Layout
 - [ ] Post Grid
 - [ ] Content Gutters
+
+### Better Darkmode
+
+- [ ] Use CSS Properties somehow
+- [ ] Maybe try the auto darkmode again
 
 Updates
 --------------------------------------------------------------------
