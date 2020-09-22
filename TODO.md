@@ -42,6 +42,10 @@ Upcoming
 - [ ] Post Grid
 - [ ] Content Gutters
 
+### Fixes
+
+- [ ] Fix button spacing in flexbox
+
 ### Better Darkmode
 
 - [ ] Use CSS Properties somehow
