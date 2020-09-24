@@ -1,40 +1,16 @@
 Peaceful Gates: TODO
-====================================================================
+==============================================================================
 Project Start Date: 8 - 23 - 2020
 
-Didn't Work
---------------------------------------------------------------------
-
-- Auto Toggle Darkmode 
-
-### Table Converter Gem (9 - 17 - 2020)
-
-- [x] Research how ruby code works with Jekyll Themes (9 - 17 - 2020)
-- [ ] Create Table Converter Gem
-- [ ] Incorporate Table System
-
-#### Workaround (9 - 17 - 2020)
-
-Just wrap markdown table using following format
-
-```markdown
-<div class='horizontal-scroll' markdown='block'>
-
-| Category  | Variables                                                                                                           |
-|:---------:|:-------------------------------------------------------------------------------------------------------------------:|
-| Font      | `$font-family` <br> `$code-font-family`                                                                             |
-| Spacing   | `$spacing-unit`                                                                                                     |
-| Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
-| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
-
-</div>
-```
-
 Backlog
---------------------------------------------------------------------
+------------------------------------------------------------------------------
 
-Upcoming
---------------------------------------------------------------------
+- [ ] FIX Content Gutters on Mobile
+
+- [ ] `index` layout
+    - [ ] Rename `.homepage-layout` to `.index-grid`
+    - [ ] `index` layout is page header, and content wrapped in `.index-grid`
+    - [ ] `post-index` now extends `index`
 
 ### Better Darkmode
 
@@ -42,10 +18,10 @@ Upcoming
 - [ ] Maybe try the auto darkmode again
 
 Updates
---------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 Changelog
---------------------------------------------------------------------
+------------------------------------------------------------------------------
 
 ### 1.0.0: Finally, we got a Desktop Layout!
 
@@ -194,3 +170,31 @@ Changelog
 - [x] Root Styling (9 - 4 - 2020)
 - [x] Base Layout Stuff (9 - 4 - 2020)
 - [x] Styled Homepage (9 - 4 - 2020)
+
+Didn't Work
+------------------------------------------------------------------------------
+
+- Auto Toggle Darkmode 
+
+### Table Converter Gem (9 - 17 - 2020)
+
+- [x] Research how ruby code works with Jekyll Themes (9 - 17 - 2020)
+- [ ] Create Table Converter Gem
+- [ ] Incorporate Table System
+
+#### Workaround (9 - 17 - 2020)
+
+Just wrap markdown table using following format
+
+```markdown
+<div class='horizontal-scroll' markdown='block'>
+
+| Category  | Variables                                                                                                           |
+|:---------:|:-------------------------------------------------------------------------------------------------------------------:|
+| Font      | `$font-family` <br> `$code-font-family`                                                                             |
+| Spacing   | `$spacing-unit`                                                                                                     |
+| Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
+| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
+
+</div>
+```
