@@ -1,3 +1,9 @@
+@include on-desktop {
+    .show-on-mobile {
+        display: none !important;
+    }
+}
+
 .button-group {
     // Spacing
     margin: $spacing-3 0pt;
