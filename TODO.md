@@ -44,7 +44,7 @@ Upcoming
 
 ### Fixes
 
-- [ ] Fix button spacing in flexbox
+- [x] Fix button spacing in flexbox (9 - 24 - 2020)
 
 ### Better Darkmode
 
