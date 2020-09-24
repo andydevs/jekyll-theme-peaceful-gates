@@ -5,7 +5,7 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
-- [ ] FIX Content Gutters on Mobile
+- [x] FIX Content Gutters on Mobile
 
 - [ ] `index` layout
     - [ ] Rename `.homepage-layout` to `.index-grid`
