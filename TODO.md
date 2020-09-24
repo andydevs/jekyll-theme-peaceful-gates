@@ -36,18 +36,6 @@ Backlog
 Upcoming
 --------------------------------------------------------------------
 
-### Desktop
-
-- [x] Show On Mobile (9 - 24 - 2020)
-- [x] Two Panel Layout (9 - 24 - 2020)
-- [x] Post Grid (9 - 24 - 2020)
-- [x] Button Group (9 - 24 - 2020)
-- [x] Content Gutters (9 - 24 - 2020)
-
-### Fixes
-
-- [x] Fix button spacing in flexbox (9 - 24 - 2020)
-
 ### Better Darkmode
 
 - [ ] Use CSS Properties somehow
@@ -59,11 +47,25 @@ Updates
 Changelog
 --------------------------------------------------------------------
 
-#### 0.5.2: Fix button color on darkmode.
+### 1.0.0: Finally, we got a Desktop Layout!
+
+#### Desktop
+
+- [x] Show On Mobile (9 - 24 - 2020)
+- [x] Two Panel Layout (9 - 24 - 2020)
+- [x] Post Grid (9 - 24 - 2020)
+- [x] Button Group (9 - 24 - 2020)
+- [x] Content Gutters (9 - 24 - 2020)
+
+#### Fixes
+
+- [x] Fix button spacing in flexbox (9 - 24 - 2020)
+
+### 0.5.2: Fix button color on darkmode.
 
 - FIX button color on darkmode
 
-#### 0.5.1: Fix copyright on darkmode.
+### 0.5.1: Fix copyright on darkmode.
 
 - FIX copyright color on darkmode
 
@@ -120,21 +122,21 @@ Changelog
 - [x] Links
 - [x] Social
 
-#### 0.4.4: 404 Page fix
+### 0.4.4: 404 Page fix
 
 - [x] Fix link redirect on 404 page (9 - 17 - 2020)
 
-#### 0.4.3 Fixed link to homepage
+### 0.4.3 Fixed link to homepage
 
 - FIX link to homepage (9 - 10 - 2020)
 
-#### 0.4.2 Better HTML Tags
+### 0.4.2 Better HTML Tags
 
 - [x] Improved Menu (9 - 10 - 2020)
 - [x] Improved Main (9 - 10 - 2020)
 - [x] Improved Post (9 - 10 - 2020)
 
-#### 0.4.1: Darkmode Persists
+### 0.4.1: Darkmode Persists
 
 - [x] Darkmode persists (9 - 9 - 2020)
 
@@ -144,11 +146,11 @@ Changelog
 - [x] Toggle (9 - 9 - 2020)
 - FIX footer text size and icon size lowered (9 - 9 - 2020)
 
-#### 0.3.2: Link URLs
+### 0.3.2: Link URLs
 
 - Fix link URL (added baseurl) (9 - 9 - 2020)
 
-#### 0.3.1: More Documentation and Pages
+### 0.3.1: More Documentation and Pages
 
 - [x] Usage Page (9 - 8 - 2020)
 - [x] 404 Page (9 - 8 - 2020)
@@ -165,7 +167,7 @@ Changelog
 - [x] Blockquote (9 - 6 - 2020)
 - TWEAK: Icon size (9 - 5 - 2020)
 
-#### 0.2.1: Fixed header icon buttons
+### 0.2.1: Fixed header icon buttons
 
 - Fix alignment and size of header icon buttons (9 - 5 - 2020)
 
@@ -178,11 +180,11 @@ Changelog
 - [x] Linear Post Grid (9 - 5 - 2020)
 - FIX: Remove Duplicate Header on Page (9 - 4 - 2020)
 
-#### 0.1.2: Updated font sizes
+### 0.1.2: Updated font sizes
 
 - Updated font sizes (9 - 4 - 2020)
 
-#### 0.1.1: Nevermind, forgot the post index layout
+### 0.1.1: Nevermind, forgot the post index layout
 
 - Added the post index layout (9 - 4 - 2020)
 
