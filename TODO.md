@@ -39,7 +39,7 @@ Upcoming
 ### Desktop
 
 - [x] Show On Mobile (9 - 24 - 2020)
-- [ ] Two Panel Layout
+- [x] Two Panel Layout (9 - 24 - 2020)
 - [ ] Post Grid
 - [ ] Content Gutters
 
