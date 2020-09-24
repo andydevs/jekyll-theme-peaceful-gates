@@ -40,7 +40,8 @@ Upcoming
 
 - [x] Show On Mobile (9 - 24 - 2020)
 - [x] Two Panel Layout (9 - 24 - 2020)
-- [ ] Post Grid
+- [x] Post Grid (9 - 24 - 2020)
+- [ ] Button Group
 - [ ] Content Gutters
 
 ### Fixes
