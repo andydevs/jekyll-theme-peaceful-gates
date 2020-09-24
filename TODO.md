@@ -42,7 +42,7 @@ Upcoming
 - [x] Two Panel Layout (9 - 24 - 2020)
 - [x] Post Grid (9 - 24 - 2020)
 - [x] Button Group (9 - 24 - 2020)
-- [ ] Content Gutters
+- [x] Content Gutters (9 - 24 - 2020)
 
 ### Fixes
 
