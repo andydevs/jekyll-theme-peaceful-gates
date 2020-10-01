@@ -8,9 +8,9 @@ Backlog
 - [x] FIX Content Gutters on Mobile
 
 - [ ] `index` layout
-    - [ ] Rename `.homepage-layout` to `.index-grid`
     - [ ] `index` layout is page header, and content wrapped in `.index-grid`
     - [ ] `post-index` now extends `index`
+    - [ ] Rename `.homepage-layout` to `.index-grid`
 
 ### Better Darkmode
 
