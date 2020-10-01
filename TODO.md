@@ -5,13 +5,6 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
-- [x] FIX Content Gutters on Mobile (9 - 24 - 2020)
-
-- [x] `index` layout
-    - [x] `index` layout is page header, and content wrapped in `.index-grid` (10 - 1 - 2020)
-    - [x] `post-index` now extends `index` (10 - 1 - 2020)
-    - [x] Rename `.homepage-layout` to `.index-grid` (10 - 1 - 2020)
-
 ### Better Darkmode
 
 - [ ] Use CSS Properties somehow
@@ -22,6 +15,15 @@ Updates
 
 Changelog
 ------------------------------------------------------------------------------
+
+### 1.0.1: Fixes!
+
+- [x] FIX Content Gutters on Mobile (9 - 24 - 2020)
+
+- [x] `index` layout
+    - [x] `index` layout is page header, and content wrapped in `.index-grid` (10 - 1 - 2020)
+    - [x] `post-index` now extends `index` (10 - 1 - 2020)
+    - [x] Rename `.homepage-layout` to `.index-grid` (10 - 1 - 2020)
 
 ### 1.0.0: Finally, we got a Desktop Layout!
 
