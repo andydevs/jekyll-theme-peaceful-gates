@@ -7,10 +7,10 @@ Backlog
 
 - [x] FIX Content Gutters on Mobile
 
-- [ ] `index` layout
-    - [x] `index` layout is page header, and content wrapped in `.index-grid`
-    - [x] `post-index` now extends `index`
-    - [ ] Rename `.homepage-layout` to `.index-grid`
+- [x] `index` layout
+    - [x] `index` layout is page header, and content wrapped in `.index-grid` (10 - 1 - 2020)
+    - [x] `post-index` now extends `index` (10 - 1 - 2020)
+    - [x] Rename `.homepage-layout` to `.index-grid` (10 - 1 - 2020)
 
 ### Better Darkmode
 
