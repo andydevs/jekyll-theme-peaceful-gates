@@ -3,8 +3,13 @@ layout: default
 ---
 
 <!-- Page Title -->
-{%- include page-header.html 
-    title=page.title -%}
+{%- if page.title -%}
+    {%- include page-header.html 
+        title=page.title -%}
+{%- else -%}
+    {%- include page-header.html 
+        title=site.title -%}
+{%- endif -%}
 
 <!-- Grid style layout -->
 <div class="homepage-layout">
