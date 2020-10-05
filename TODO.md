@@ -10,6 +10,13 @@ Backlog
 - [ ] Use CSS Properties somehow
 - [ ] Maybe try the auto darkmode again
 
+### Shadows
+
+- [ ] Post snippet shadow
+- [ ] Button shadow
+- [ ] Image shadow
+- [ ] Code shadow
+
 Updates
 ------------------------------------------------------------------------------
 
