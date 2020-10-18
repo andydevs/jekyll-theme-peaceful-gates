@@ -5,16 +5,15 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
-### Updates
+### Color Updates
 
 - [x] Update syntax highlighting (10 - 18 - 2020)
+- [ ] Better Darkmode
+    - [ ] Use CSS Properties with darkmode
+    - [ ] Maybe try the auto darkmode again
 - [ ] Change color system
     - [x] Go back to grayscale for now (10 - 18 - 2020)
-
-### Better Darkmode
-
-- [ ] Use CSS Properties somehow
-- [ ] Maybe try the auto darkmode again
+    - [ ] Figure out good color system for light/darkmode
 
 ### Shadows
 
