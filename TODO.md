@@ -5,6 +5,11 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
+### Updates
+
+- [ ] Update syntax highlighting
+- [ ] Change color system
+
 ### Better Darkmode
 
 - [ ] Use CSS Properties somehow

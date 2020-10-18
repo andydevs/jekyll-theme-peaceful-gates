@@ -94,6 +94,69 @@ def cos(x):
     return sum((-1**n)*x*(2*n)/factorial(2*n) for n in range(1000))
 {%- endhighlight -%}
 
+{%- highlight js -%}
+function interpolate(alpha) {
+    return scan(
+        (pos, next) => ({
+            x: alpha * next.x + (1 - alpha) * pos.x,
+            y: alpha * next.y + (1 - alpha) * pos.y
+        }),
+        { x: 0, y: 0 }
+    )
+}
+
+function toggle(observable$, subfunc) {
+    return {
+        subscription: Subscription.EMPTY,
+        next() {
+            if (this.subscription.closed)
+                this.subscription = observable$.subscribe(subfunc)
+            else
+                this.subscription.unsubscribe()
+        },
+        error() {
+            if (!this.subscription.closed)
+                this.subscription.unsubscribe()
+        },
+        complete() {
+            if (!this.subscription.closed)
+                this.subscription.unsubscribe()
+        }
+    }
+}
+
+let animationFrame$ = of(null)
+    .pipe(
+        repeat(),
+        observeOn(animationFrameScheduler)
+    )
+
+let mouseMovePos$ = fromEvent(document, 'mousemove')
+    .pipe(
+        map(event => ({
+            x: event.clientX,
+            y: event.clientY
+        })),
+        observeOn(animationFrameScheduler)
+    )
+
+let mousePos$ = combineLatest([animationFrame$, mouseMovePos$])
+    .pipe(map(([_, pos]) => pos))
+
+function clickAndDrag(id, alpha) {
+    let elem = document.getElementById(id)
+    return fromEvent(elem, 'click')
+        .subscribe(toggle(
+            interpolate(alpha)(mousePos$),
+            pos => move(elem, pos)
+        ))
+}
+
+clickAndDrag('box', 1.0)
+clickAndDrag('circle', 0.75)
+clickAndDrag('airplane', 0.25)
+{%- endhighlight -%}
+
 {%- highlight csharp -%}
 public class Person {
     // Private variables
