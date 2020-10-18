@@ -2,20 +2,16 @@
     margin: $spacing-3 0pt;
     display: flex;
     align-items: center;
+    color: inherit;
 }
 
 .page-info {
     flex: 1;
     margin: 0pt;
-    color: $primary-color !important;
-    h1,h2,h3,h4,h5,h6 { color: inherit; }
 }
 
 .page-actions {
     flex: 0 1 auto;
-    > .icon-button {
-        color: $dark-secondary-color;
-    }
 }
 
 .page-title {

@@ -9,6 +9,7 @@ Backlog
 
 - [x] Update syntax highlighting (10 - 18 - 2020)
 - [ ] Change color system
+    - [x] Go back to grayscale for now (10 - 18 - 2020)
 
 ### Better Darkmode
 

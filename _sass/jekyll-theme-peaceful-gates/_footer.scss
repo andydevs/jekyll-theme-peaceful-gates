@@ -9,7 +9,6 @@
 
 .copyright {
     font-style: italic;
-    color: $dark-gray-color;
 }
 
 .social-link {
@@ -30,5 +29,5 @@
     // Style icon
     font-size: $icon-font-size;
     text-decoration: none;
-    color: $dark-secondary-color;
+    color: inherit !important;
 }

@@ -10,13 +10,9 @@ $spacing-3: $spacing-unit;
 
 // Coloring
 $white-color: white !default;
+$light-gray-color: #ccc !default;
+$dark-gray-color: #333 !default;
 $black-color: black !default;
-$light-gray-color: darken($white-color, 15%) !default;
-$dark-gray-color: lighten($black-color, 15%) !default;
-$primary-color: #07294D !default;
-$secondary-color: #FFC600 !default;
-$light-primary-color: lighten($primary-color, 70%) !default;
-$dark-secondary-color: darken($secondary-color, 15%) !default;
 
 // Font sizes
 $icon-font-size: 24pt !default;
