@@ -7,7 +7,7 @@ Backlog
 
 ### Updates
 
-- [ ] Update syntax highlighting
+- [x] Update syntax highlighting (10 - 18 - 2020)
 - [ ] Change color system
 
 ### Better Darkmode
