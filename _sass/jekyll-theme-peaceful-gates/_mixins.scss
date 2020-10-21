@@ -1,5 +1,29 @@
+// Desktop breakpoint
 @mixin on-desktop {
     @media screen and (min-width: $breakpoint-mobile) {
         @content;
     }
+}
+
+// Color function
+@function color-for($name) {
+    @return map-get($theme-map, $name);
+}
+
+// Theme mixin
+@mixin with-theme {
+    // Set all colors for themes
+    @each $theme, $map in $themes {
+        // Apply all of the themes
+        .#{$theme} & {
+            $theme-map: $map !global;
+            @content;
+            $theme-map: null !global;
+        }
+    }
+
+    // Apply default theme
+    $theme-map: map-get($themes, $default) !global;
+    @content;
+    $theme-map: null !global;
 }

@@ -1,0 +1,16 @@
+// Theming code courtesy of Katie McTigue
+// Link to blog post: https://medium.com/@katiemctigue/how-to-create-a-dark-mode-in-sass-609f131a3995
+
+// Themes
+$themes : (
+    
+    lightmode: (
+        hl-area: $light-gray-color
+    ),
+
+    darkmode: (
+        hl-area: $dark-gray-color
+    )
+    
+);
+$default: "lightmode";

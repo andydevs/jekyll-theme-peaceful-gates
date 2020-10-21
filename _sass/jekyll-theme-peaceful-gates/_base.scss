@@ -1,8 +1,7 @@
 body {
     margin: 0;
+    font-family: $font-family;
 }
-
-* { font-family: $font-family; }
 
 a {
     color: $dark-gray-color;

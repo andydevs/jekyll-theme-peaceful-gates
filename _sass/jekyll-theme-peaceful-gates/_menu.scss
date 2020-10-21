@@ -40,7 +40,10 @@
     grid-template-rows: auto;
     grid-auto-columns: auto;
 
-    background-color: $light-gray-color;
+    // Coloring
+    @include with-theme {
+        background-color: color-for(hl-area);
+    }
 }
 
 .menu-container {
