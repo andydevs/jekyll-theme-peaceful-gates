@@ -1,6 +1,14 @@
 // Fonts
-$font-family: "Calibri", "Arial", sans-serif !default;
-$code-font-family: "Consolas", monospace !default;
+$font-family: (-apple-system, 
+    BlinkMacSystemFont, 
+    'Segoe UI', Helvetica, 
+    Arial, sans-serif, 
+    'Apple Color Emoji', 
+    'Segoe UI Emoji', 
+    'Segoe UI Symbol');
+$code-font-family: (
+    "Consolas", 
+    monospace) !default;
 
 // Spacing unit
 $spacing-unit: 16pt !default;
@@ -16,7 +24,7 @@ $black-color: black !default;
 
 // Font sizes
 $icon-font-size: 24pt !default;
-$mega-font-size: 38pt !default;
+$mega-font-size: 30pt !default;
 $large-font-size: 20pt !default;
 $medium-font-size: 16pt !default;
 $normal-font-size: 12pt !default;
