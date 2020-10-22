@@ -32,52 +32,10 @@
                 {%- endfor -%}
             </ul>
             <footer class="footer">
-                <div class="social-bar">
-                    {%- if site.social.facebook -%}
-                        <a class="social-link" href="http://www.facebook.com/{{ site.social.facebook }}">
-                            <span class="fab fa-facebook"></span>
-                        </a>
-                    {%- endif -%}
-
-                    {%- if site.social.twitter -%}
-                        <a class="social-link" href="http://www.twitter.com/{{ site.social.twitter }}">
-                            <span class="fab fa-twitter"></span>
-                        </a>
-                    {%- endif -%}
-
-                    {%- if site.social.instagram -%}
-                        <a class="social-link" href="http://www.instagram.com/{{ site.social.instagram }}">
-                            <span class="fab fa-instagram"></span>
-                        </a>
-                    {%- endif -%}
-
-                    {%- if site.social.youtube -%}
-                        <a class="social-link" href="http://www.youtube.com/{{ site.social.youtube }}">
-                            <span class="fab fa-youtube"></span>
-                        </a>
-                    {%- endif -%}
-
-                    {%- if site.social.linkedin -%}
-                        <a class="social-link" href="http://www.linkedin.com/in/{{ site.social.linkedin }}">
-                            <span class="fab fa-linkedin"></span>
-                        </a>
-                    {%- endif -%}
-
-                    {%- if site.social.github -%}
-                        <a class="social-link" href="http://www.github.com/{{ site.social.github }}">
-                            <span class="fab fa-github"></span>
-                        </a>
-                    {%- endif -%}
-
-                    {%- if site.social.email -%}
-                        <a class="social-link" href="mailto://{{ site.social.email }}">
-                            <span class="fas fa-envelope"></span>
-                        </a>
-                    {%- endif -%}
-                </div>
                 <p class="site-description">
                     {{ site.description }}
                 </p>
+                {%- include social-bar.html -%}
                 <p class="copyright">
                     Copyright &copy; {{ site.copyright }} {{ site.author }}
                 </p>

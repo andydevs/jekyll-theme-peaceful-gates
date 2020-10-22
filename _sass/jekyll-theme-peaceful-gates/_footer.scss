@@ -15,10 +15,13 @@
     // Sizing and spacing
     margin: $spacing-1;
 
+    // Sizing is scaled by font
+    $font-size: $medium-font-size;
+
     // Manually set width and height
-    width: $icon-font-size + 2*$spacing-1;
-    height: $icon-font-size + 2*$spacing-1;
-    border-radius: $icon-font-size;
+    width: $font-size + 2*$spacing-1;
+    height: $font-size + 2*$spacing-1;
+    border-radius: $font-size;
 
     // Center icon
     display: inline-grid;
@@ -27,7 +30,7 @@
     place-items: center;
 
     // Style icon
-    font-size: $icon-font-size;
+    font-size: $font-size;
     text-decoration: none;
     color: inherit !important;
 }
