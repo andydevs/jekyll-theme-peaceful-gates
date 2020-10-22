@@ -43,6 +43,7 @@
     // Coloring
     @include with-theme {
         background-color: color-for(hl-area);
+        color: color-for(text);
     }
 }
 

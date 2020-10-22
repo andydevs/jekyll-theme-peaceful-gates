@@ -1,18 +1,21 @@
 body {
     margin: 0;
     font-family: $font-family;
-}
 
-a {
-    color: $dark-gray-color;
-    &:hover {
-        text-decoration: none;
+    @include with-theme {
+        background-color: color-for(bg);
+        color: color-for(text);
     }
 }
 
-@mixin page-section {
-    display: block;
-    margin: $spacing-3 auto;
+a {
+    &:hover {
+        text-decoration: none;
+    }
+
+    @include with-theme {
+        color: color-for(hl);
+    }
 }
 
 h1,h2,h3,h4,h5,h6,p {
@@ -40,15 +43,20 @@ table {
     min-width: 100%;
     overflow: hidden;
     th {
-        color: $dark-gray-color;
+        @include with-theme {
+            color: color-for(hl);
+        }
     }
     th,td {
         margin: 0pt;
         padding: $spacing-2;
         overflow: hidden;
-        border-bottom: 1px solid $dark-gray-color;
+        border-bottom: 1px solid;
         white-space: nowrap;
         text-align: center;
+        @include with-theme {
+            border-color: color-for(hl);
+        }
     }
     tr:last-child {
         td {
@@ -61,5 +69,7 @@ blockquote {
     @include page-section;
     margin-left: $spacing-3;
     font-size: $medium-font-size;
-    color: $dark-gray-color;
+    @include with-theme {
+        color: color-for(hl);
+    }
 }

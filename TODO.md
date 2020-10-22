@@ -8,9 +8,10 @@ Backlog
 ### Color Updates
 
 - [x] Update syntax highlighting (10 - 18 - 2020)
-- [ ] Change font to match Andy's Notebook
+- [ ] Change font to match Andy's Notebook (10 - 21 - 2020)
 - [ ] Better Darkmode
-    - [ ] Use CSS Properties with darkmode
+    - [x] Use CSS Properties with darkmode (10 - 21 - 2020)
+        - _Note: Used SASS map instead._
     - [ ] Maybe try the auto darkmode again
 - [ ] Change color system
     - [x] Go back to grayscale for now (10 - 18 - 2020)

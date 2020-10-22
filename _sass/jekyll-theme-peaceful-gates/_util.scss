@@ -5,6 +5,12 @@
     }
 }
 
+// Page section mixin
+@mixin page-section {
+    display: block;
+    margin: $spacing-3 auto;
+}
+
 // Color function
 @function color-for($name) {
     @return map-get($theme-map, $name);
@@ -15,7 +21,7 @@
     // Set all colors for themes
     @each $theme, $map in $themes {
         // Apply all of the themes
-        .#{$theme} & {
+        .#{$theme} &, &.#{$theme} {
             $theme-map: $map !global;
             @content;
             $theme-map: null !global;
