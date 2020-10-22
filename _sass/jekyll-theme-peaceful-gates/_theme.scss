@@ -10,6 +10,7 @@ $black-color: black !default;
 // Themes
 $themes : (
     
+    // Lightmode theme
     lightmode: (
         bg: $white-color,
         text: $black-color,
@@ -17,6 +18,7 @@ $themes : (
         hl: $dark-gray-color
     ),
 
+    // Darkmode theme
     darkmode: (
         bg: $black-color,
         text: $white-color,
