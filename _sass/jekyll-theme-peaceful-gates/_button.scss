@@ -40,8 +40,8 @@
     
     // Color
     @include with-theme {
-        background-color: color-for(hl-area);
-        color: color-for(text);
+        background-color: color-for(primary);
+        color: color-for(text-on-primary);
     }
 }
 
@@ -58,6 +58,8 @@
 
     // Styling 
     background: none;
-    color: inherit;
     border: none;
+    @include with-theme {
+        color: color-for(primary)
+    }
 }

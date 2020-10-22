@@ -14,7 +14,7 @@ a {
     }
 
     @include with-theme {
-        color: color-for(hl);
+        color: color-for(primary);
     }
 }
 
@@ -44,7 +44,7 @@ table {
     overflow: hidden;
     th {
         @include with-theme {
-            color: color-for(hl);
+            color: color-for(primary);
         }
     }
     th,td {
@@ -55,7 +55,7 @@ table {
         white-space: nowrap;
         text-align: center;
         @include with-theme {
-            border-color: color-for(hl);
+            border-color: color-for(primary);
         }
     }
     tr:last-child {
@@ -70,6 +70,6 @@ blockquote {
     margin-left: $spacing-3;
     font-size: $medium-font-size;
     @include with-theme {
-        color: color-for(hl);
+        color: color-for(primary);
     }
 }

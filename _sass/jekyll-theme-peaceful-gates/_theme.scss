@@ -3,9 +3,11 @@
 
 // All colors allowed
 $white-color: white !default;
-$light-gray-color: #ccc !default;
-$dark-gray-color: #333 !default;
+$light-gray-color: #ececec !default;
+$dark-gray-color: #242424 !default;
 $black-color: black !default;
+$primary-color: #0077ff !default;
+$primary-color-dark: #0099ff !default;
 
 // Themes
 $themes : (
@@ -15,7 +17,9 @@ $themes : (
         bg: $white-color,
         text: $black-color,
         hl-area: $light-gray-color,
-        hl: $dark-gray-color
+        hl: $dark-gray-color,
+        primary: $primary-color,
+        text-on-primary: $white-color
     ),
 
     // Darkmode theme
@@ -23,7 +27,9 @@ $themes : (
         bg: $black-color,
         text: $white-color,
         hl-area: $dark-gray-color,
-        hl: $light-gray-color
+        hl: $light-gray-color,
+        primary: $primary-color-dark,
+        text-on-primary: $black-color
     )
     
 );

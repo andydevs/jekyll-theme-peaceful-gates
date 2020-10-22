@@ -2,7 +2,7 @@ code {
     font-family: $code-font-family;
     * { font-family: $code-font-family; }
     @include with-theme {
-        color: color-for(hl);
+        color: color-for(primary);
     }
 }
 
@@ -52,7 +52,7 @@ pre {
         // .cs    { color: darken($color: $white-color, $amount: 30%); font-weight: bold; font-style: italic } // Comment.Special
 
         // Keywords
-        .k, .kd { font-weight: bold; } // Keyword
+        .k, .kd { color: color-for(primary); font-weight: bold; } // Keyword
         // .kd  { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Declaration
         // .kt  { } // Keyword.Type
         // .kc  { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Constant
@@ -77,7 +77,7 @@ pre {
         // .gu    { color: #aaa } // Generic.Subheading
 
         // Names
-        // .na  { } // Name.Attribute
+        .na  { color: color-for(primary) } // Name.Attribute
         // .nb  { color: lighten($color: $back-color, $amount: 50%); } // Name.Builtin
         // .nc  { color: lighten($color: $back-color, $amount: 40%); font-weight: bold } // Name.Class
         // .no  { color: lighten($color: $back-color, $amount: 40%) } // Name.Constant
@@ -85,7 +85,7 @@ pre {
         // .ne  { color: #900; font-weight: bold } // Name.Exception
         // .nf  { color: lighten($color: $back-color, $amount: 55%); font-weight: bold } // Name.Function
         // .nn  { color: darken($color: $white-color, $amount: 20%) } // Name.Namespace
-        .nt     { font-weight: bold; } // Name.Tag
+        .nt     { color: color-for(primary); font-weight: bold; } // Name.Tag
         // .nv  { color: darken($color: $white-color, $amount: 20%) } // Name.Variable
         // .bp  { color: darken($color: $white-color, $amount: 20%) } // Name.Builtin.Pseudo
         // .vc  { color: darken($color: $white-color, $amount: 20%) } // Name.Variable.Class
@@ -93,7 +93,7 @@ pre {
         // .vi  { color: darken($color: $white-color, $amount: 20%) } // Name.Variable.Instance
         
         // Literal.Number
-        .m, .mf, .mh, .mi, .mo, .il { color: color-for(hl); }
+        .m, .mf, .mh, .mi, .mo, .il { color: color-for(primary); }
         // .mf    { color: #880 } // Literal.Number.Float
         // .mh    { color: #880 } // Literal.Number.Hex
         // .mi    { color: #880 } // Literal.Number.Integer
