@@ -12,9 +12,9 @@ Backlog
 - [x] Better Darkmode (10 - 21 - 2020)
     - [x] Use CSS Properties with darkmode (10 - 21 - 2020)
         - _Note: Used SASS map instead._
-- [ ] Change color system
+- [x] Change color system (10 - 18 - 2020)
     - [x] Go back to grayscale for now (10 - 18 - 2020)
-    - [ ] Figure out good color system for light/darkmode
+    - [x] Figure out good color system for light/darkmode (10 - 18 - 2020)
 
 ### Shadows
 
