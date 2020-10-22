@@ -9,10 +9,9 @@ Backlog
 
 - [x] Update syntax highlighting (10 - 18 - 2020)
 - [x] Change font to match Andy's Notebook (10 - 21 - 2020)
-- [ ] Better Darkmode
+- [x] Better Darkmode (10 - 21 - 2020)
     - [x] Use CSS Properties with darkmode (10 - 21 - 2020)
         - _Note: Used SASS map instead._
-    - [ ] Maybe try the auto darkmode again
 - [ ] Change color system
     - [x] Go back to grayscale for now (10 - 18 - 2020)
     - [ ] Figure out good color system for light/darkmode
@@ -190,7 +189,9 @@ Changelog
 Didn't Work
 ------------------------------------------------------------------------------
 
-- Auto Toggle Darkmode 
+### Auto Darkmode (10 - 21 - 2020)
+
+- Don't know how to test `prefers-color-scheme` or `matchMedia`
 
 ### Table Converter Gem (9 - 17 - 2020)
 
