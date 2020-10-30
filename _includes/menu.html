@@ -1,13 +1,12 @@
 <div class="menu-window" id="menu-window">
     <nav class="menu" id="menu">
         <div class="menu-container">
+
+            <!-- Header -->
             <header class="menu-header">
                 <div class="menu-header-left">
                     <button class="icon-button show-on-mobile" id="close-menu">
                         <span class="fas fa-chevron-left"></span>
-                    </button>
-                    <button class="icon-button" id="toggle-darkmode">
-                        <span class="fas fa-moon"></span>
                     </button>
                 </div>
                 <div class="menu-header-right">
@@ -16,6 +15,8 @@
                     </a>
                 </div>
             </header>
+
+            <!-- Menu Links -->
             <ul class="menu-links">
                 {%- for link in site.links -%}
                     <li>
@@ -31,6 +32,14 @@
                     </li>
                 {%- endfor -%}
             </ul>
+
+            <!-- Menu Controls -->
+            <div class="menu-controls">
+                <button class="icon-button" id="toggle-darkmode">
+                    <span class="fas fa-moon"></span>
+                </button>
+            </div>
+
         </div>
     </nav>
 </div>
