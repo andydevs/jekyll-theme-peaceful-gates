@@ -8,6 +8,7 @@ Backlog
 ### Change Layout
 
 - [x] Try placing footer at bottom of page? (10 - 29 - 2020)
+- [ ] Move darkmode control to bottom of menu
 
 ### Shadows
 

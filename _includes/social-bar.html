@@ -1,43 +1,36 @@
 <div class="social-bar">
-    {%- if site.social.facebook -%}
-        <a class="social-link" href="http://www.facebook.com/{{ site.social.facebook }}">
-            <span class="fab fa-facebook"></span>
-        </a>
-    {%- endif -%}
+    {%- include social-link.html
+        icon="fab fa-facebook"
+        prefix="http://www.facebook.com/"
+        handle=site.social.facebook -%}
 
-    {%- if site.social.twitter -%}
-        <a class="social-link" href="http://www.twitter.com/{{ site.social.twitter }}">
-            <span class="fab fa-twitter"></span>
-        </a>
-    {%- endif -%}
+    {%- include social-link.html
+        icon="fab fa-twitter"
+        prefix="http://www.twitter.com/"
+        handle=site.social.twitter -%}
 
-    {%- if site.social.instagram -%}
-        <a class="social-link" href="http://www.instagram.com/{{ site.social.instagram }}">
-            <span class="fab fa-instagram"></span>
-        </a>
-    {%- endif -%}
+    {%- include social-link.html
+        icon="fab fa-instagram"
+        prefix="http://www.instagram.com/"
+        handle=site.social.instagram -%}
 
-    {%- if site.social.youtube -%}
-        <a class="social-link" href="http://www.youtube.com/{{ site.social.youtube }}">
-            <span class="fab fa-youtube"></span>
-        </a>
-    {%- endif -%}
+    {%- include social-link.html
+        icon="fab fa-youtube"
+        prefix="http://www.youtube.com/"
+        handle=site.social.youtube -%}
 
-    {%- if site.social.linkedin -%}
-        <a class="social-link" href="http://www.linkedin.com/in/{{ site.social.linkedin }}">
-            <span class="fab fa-linkedin"></span>
-        </a>
-    {%- endif -%}
+    {%- include social-link.html
+        icon="fab fa-linkedin"
+        prefix="http://www.linkedin.com/in/"
+        handle=site.social.linkedin -%}
 
-    {%- if site.social.github -%}
-        <a class="social-link" href="http://www.github.com/{{ site.social.github }}">
-            <span class="fab fa-github"></span>
-        </a>
-    {%- endif -%}
+    {%- include social-link.html
+        icon="fab fa-github"
+        prefix="http://www.github.com/"
+        handle=site.social.github -%}
 
-    {%- if site.social.email -%}
-        <a class="social-link" href="mailto://{{ site.social.email }}">
-            <span class="fas fa-envelope"></span>
-        </a>
-    {%- endif -%}
+    {%- include social-link.html
+        icon="fas fa-envelope"
+        prefix="mailto://"
+        handle=site.social.email -%}
 </div>
