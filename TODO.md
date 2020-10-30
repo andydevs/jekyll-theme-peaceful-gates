@@ -5,6 +5,10 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
+### Footer Placement
+
+- [ ] Try placing footer at bottom of page?
+
 ### Shadows
 
 - [ ] Post snippet shadow
