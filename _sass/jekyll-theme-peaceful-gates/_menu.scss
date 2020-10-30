@@ -5,10 +5,8 @@
 .main-container {
     margin: $spacing-3;
     @include on-desktop {
-        position: absolute;
-        left: $desktop-menu-width;
-        right: 0%;
         margin: 0pt $spacing-3;
+        margin-left: $desktop-menu-width + $spacing-3;
     }
 }
 

@@ -1,13 +1,32 @@
 .footer {
+    padding: $spacing-3;
+    @include on-desktop {
+        padding: $spacing-3 $content-gutters-width;
+        margin-top: $spacing-3;
+        margin-left: $desktop-menu-width;
+    }
     font-size: $small-font-size;
     text-align: center;
+    @include with-theme {
+        color: color-for(hl);
+    }
+}
+
+@mixin footer-section {
+    margin: $spacing-1 0pt;
 }
 
 .site-description {
+    @include footer-section;
     text-align: justify;
 }
 
+.social-bar {
+    @include footer-section;
+}
+
 .copyright {
+    @include footer-section;
     font-style: italic;
 }
 

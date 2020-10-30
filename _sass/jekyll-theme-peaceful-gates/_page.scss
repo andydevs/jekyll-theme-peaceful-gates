@@ -31,7 +31,7 @@
 .content-gutters {
     margin: 0pt;
     @include on-desktop {
-        margin: 0pt 10%;
+        margin: 0pt $content-gutters-width;
     }
 }
 

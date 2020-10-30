@@ -5,9 +5,9 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
-### Footer Placement
+### Change Layout
 
-- [ ] Try placing footer at bottom of page?
+- [x] Try placing footer at bottom of page? (10 - 29 - 2020)
 
 ### Shadows
 
