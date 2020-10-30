@@ -5,11 +5,6 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
-### Change Layout
-
-- [x] Try placing footer at bottom of page? (10 - 29 - 2020)
-- [x] Move darkmode control to bottom of menu (10 - 30 - 2020)
-
 ### Shadows
 
 - [ ] Post snippet shadow
@@ -22,6 +17,11 @@ Updates
 
 Changelog
 ------------------------------------------------------------------------------
+
+### 1.2.0: Change Layout
+
+- [x] Try placing footer at bottom of page? (10 - 29 - 2020)
+- [x] Move darkmode control to bottom of menu (10 - 30 - 2020)
 
 ### 1.1.0: Color Updates
 
