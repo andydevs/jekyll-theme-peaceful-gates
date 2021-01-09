@@ -5,6 +5,11 @@ Project Start Date: 8 - 23 - 2020
 Backlog
 ------------------------------------------------------------------------------
 
+### Traditional Navbar
+
+- [ ] Desktop Navbar
+- [ ] Mobile Responsive Navbar
+
 ### Shadows
 
 - [ ] Post snippet shadow
