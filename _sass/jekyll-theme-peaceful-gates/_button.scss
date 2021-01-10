@@ -1,5 +1,8 @@
-@include on-desktop {
-    .show-on-mobile {
+.show-on-mobile {
+    @include on-tablet {
+        display: none !important;
+    }
+    @include on-desktop {
         display: none !important;
     }
 }
@@ -12,14 +15,14 @@
     display: flex;
     flex-direction: row-reverse;
     justify-content: center;
-    @include on-desktop {
+    @include not-on-mobile {
         justify-content: flex-start;
     }
 
     // Buttons in Group
     .button {
         flex: 1;
-        @include on-desktop {
+        @include not-on-mobile {
             flex: 0 auto;
         }
     }

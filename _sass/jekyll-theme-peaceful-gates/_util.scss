@@ -1,12 +1,22 @@
 // Desktop breakpoint
 @mixin on-desktop {
-    @media screen and (min-width: $breakpoint-mobile) {
+    @media screen and (min-width: $breakpoint-tablet) {
         @content;
+    }
+}
+@mixin on-tablet {
+    @media screen and (min-width: $breakpoint-mobile) and (max-width: $breakpoint-tablet) {
+        @content;   
     }
 }
 @mixin on-mobile {
     @media screen and (max-width: $breakpoint-mobile) {
         @content;
+    }
+}
+@mixin not-on-mobile {
+    @media screen and (min-width: $breakpoint-mobile) {
+        @content;   
     }
 }
 

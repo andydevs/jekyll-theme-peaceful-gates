@@ -53,7 +53,7 @@
 }
 
 .menu-dropdown {
-    @include on-desktop {
+    @include not-on-mobile {
         flex: 1 !important;
         display: flex !important;
         flex-direction: row !important;
