@@ -2,15 +2,6 @@
 layout: default
 ---
 
-<!-- Page Title -->
-{%- if page.title -%}
-    {%- include page-header.html 
-        title=page.title -%}
-{%- else -%}
-    {%- include page-header.html 
-        title=site.title -%}
-{%- endif -%}
-
 <!-- Index grid layout -->
 <div class="index-grid">
     {{ content }}

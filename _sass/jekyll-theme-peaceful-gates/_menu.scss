@@ -2,79 +2,24 @@
     overflow: hidden;
 }
 
-.main-container {
-    margin: $spacing-3;
-    @include on-desktop {
-        margin: 0pt $spacing-3;
-        margin-left: $desktop-menu-width + $spacing-3;
-    }
-}
-
-.menu-window {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: none;
-
-    @include on-desktop {
-        display: block;
-        width: $desktop-menu-width;
-    }
-}
-
 .menu {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: -100%;
-    @include on-desktop {
-        left: 0%;
-    }
-
-    display: grid;
-    grid-template-rows: auto;
-    grid-auto-columns: auto;
-
-    // Coloring
-    @include with-theme {
-        background-color: color-for(hl-area);
-        color: color-for(text);
-    }
+    padding: $spacing-2 $spacing-3;
+    margin-bottom: $spacing-2;
 }
 
 .menu-container {
-    margin: $spacing-3;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr;
-}
-
-.menu-header {
     display: flex;
     flex-direction: row;
     align-items: center;
+}
 
-    @include with-theme {
-        color: color-for(primary);
-    }
-
-    .menu-header-left {
-        flex: 0 1 auto;
-        display: flex;
-        align-items: center;
-    }
-
-    .menu-header-right {
-        flex: 1;
-        text-align: right;
-    }
+.main-container {
+    padding: 0pt $spacing-3;
 }
 
 .menu-title {
-    font-size: $mega-font-size;
+    margin: 0pt $spacing-2;
+    font-size: $large-font-size;
     font-weight: bold;
     text-decoration: none;
     color: inherit !important;
@@ -84,15 +29,22 @@
 }
 
 .menu-links {
-    list-style-type: none;
+    // Spacing and alignment
+    margin: 0pt;
     padding: 0pt;
-    text-align: right;
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: left;
+    list-style-type: none;
+
+    // List element styling
     & > li {
-        margin: $spacing-2 0pt;
+        margin: 0pt $spacing-2;
         > a {
             color: inherit !important;
             text-decoration: none;
-            font-size: $large-font-size;
+            font-size: $medium-font-size;
             &:hover {
                 text-decoration: underline;
             }
@@ -104,4 +56,8 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+
+    .icon-button {
+        font-size: $medium-font-size;
+    }
 }

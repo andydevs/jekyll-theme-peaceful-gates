@@ -1,10 +1,5 @@
 .footer {
     padding: $spacing-3;
-    @include on-desktop {
-        padding: $spacing-3 $content-gutters-width;
-        margin-top: $spacing-3;
-        margin-left: $desktop-menu-width;
-    }
     font-size: $small-font-size;
     text-align: center;
     @include with-theme {

@@ -1,45 +1,33 @@
-<div class="menu-window" id="menu-window">
-    <nav class="menu" id="menu">
-        <div class="menu-container">
+<nav class="menu" id="menu">
+    <div class="menu-container">
+        <!-- Header -->
+        <a class="menu-title" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
+            {{ site.title }}
+        </a>
 
-            <!-- Header -->
-            <header class="menu-header">
-                <div class="menu-header-left">
-                    <button class="icon-button show-on-mobile" id="close-menu">
-                        <span class="fas fa-chevron-left"></span>
-                    </button>
-                </div>
-                <div class="menu-header-right">
-                    <a class="menu-title" href="{{ '/' | prepend: site.baseurl | prepend: site.url }}">
-                        {{ site.title }}
-                    </a>
-                </div>
-            </header>
+        <!-- Menu Links -->
+        <ul class="menu-links">
+            {%- for link in site.links -%}
+                <li>
+                    {%- if link.direct -%}
+                        <a href="{{ link.url }}">
+                            {{ link.text }}
+                        </a>
+                    {%- else -%}
+                        <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
+                            {{ link.text }}
+                        </a>
+                    {%- endif -%}
+                </li>
+            {%- endfor -%}
+        </ul>
 
-            <!-- Menu Links -->
-            <ul class="menu-links">
-                {%- for link in site.links -%}
-                    <li>
-                        {%- if link.direct -%}
-                            <a href="{{ link.url }}">
-                                {{ link.text }}
-                            </a>
-                        {%- else -%}
-                            <a href="{{ link.url | prepend: site.baseurl | prepend: site.url }}">
-                                {{ link.text }}
-                            </a>
-                        {%- endif -%}
-                    </li>
-                {%- endfor -%}
-            </ul>
-
-            <!-- Menu Controls -->
-            <div class="menu-controls">
-                <button class="icon-button" id="toggle-darkmode">
-                    <span class="fas fa-moon"></span>
-                </button>
-            </div>
-
+        <!-- Menu Controls -->
+        <div class="menu-controls">
+            <button class="icon-button" id="toggle-darkmode">
+                <span class="fas fa-moon"></span>
+            </button>
         </div>
-    </nav>
-</div>
+
+    </div>
+</nav>
