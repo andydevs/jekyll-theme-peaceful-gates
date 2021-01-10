@@ -1,27 +1,10 @@
-Peaceful Gates: TODO
+Peaceful Gates: CHANGELOG
 ==============================================================================
 Project Start Date: 8 - 23 - 2020
 
-Backlog
-------------------------------------------------------------------------------
+### 2.0.0
 
-### Traditional Navbar
-
-- [ ] Desktop Navbar
-- [ ] Mobile Responsive Navbar
-
-### Shadows
-
-- [ ] Post snippet shadow
-- [ ] Button shadow
-- [ ] Image shadow
-- [ ] Code shadow
-
-Updates
-------------------------------------------------------------------------------
-
-Changelog
-------------------------------------------------------------------------------
+- Top Menu Bar instead of Side Bar
 
 ### 1.2.0: Change Layout
 
@@ -195,33 +178,3 @@ Changelog
 - [x] Root Styling (9 - 4 - 2020)
 - [x] Base Layout Stuff (9 - 4 - 2020)
 - [x] Styled Homepage (9 - 4 - 2020)
-
-Didn't Work
-------------------------------------------------------------------------------
-
-### Auto Darkmode (10 - 21 - 2020)
-
-- Don't know how to test `prefers-color-scheme` or `matchMedia`
-
-### Table Converter Gem (9 - 17 - 2020)
-
-- [x] Research how ruby code works with Jekyll Themes (9 - 17 - 2020)
-- [ ] Create Table Converter Gem
-- [ ] Incorporate Table System
-
-#### Workaround (9 - 17 - 2020)
-
-Just wrap markdown table using following format
-
-```markdown
-<div class='horizontal-scroll' markdown='block'>
-
-| Category  | Variables                                                                                                           |
-|:---------:|:-------------------------------------------------------------------------------------------------------------------:|
-| Font      | `$font-family` <br> `$code-font-family`                                                                             |
-| Spacing   | `$spacing-unit`                                                                                                     |
-| Font Size | `$mega-font-size` <br> `$large-font-size` <br> `$medium-font-size` <br> `$normal-font-size` <br> `$small-font-size` |
-| Colors    | `$white-color` <br> `$light-gray-color` <br> `$dark-gray-color` <br> `$black-color`                                 |
-
-</div>
-```
