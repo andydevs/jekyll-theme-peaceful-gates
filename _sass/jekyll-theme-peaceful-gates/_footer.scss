@@ -1,14 +1,18 @@
 .footer {
+    margin-top: $spacing-3;
     padding: $spacing-3;
-    @include on-desktop {
-        padding: $spacing-3 $content-gutters-width;
-        margin-top: $spacing-3;
-        margin-left: $desktop-menu-width;
-    }
     font-size: $small-font-size;
     text-align: center;
     @include with-theme {
+        background-color: color-for(hl-area);
         color: color-for(hl);
+    }
+}
+
+.footer-container {
+    margin: auto;
+    @include on-desktop {
+        max-width: 50%;
     }
 }
 

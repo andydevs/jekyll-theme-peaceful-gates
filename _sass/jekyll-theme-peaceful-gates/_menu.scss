@@ -1,80 +1,40 @@
-.scroll-lock {
-    overflow: hidden;
-}
-
 .main-container {
-    margin: $spacing-3;
-    @include on-desktop {
-        margin: 0pt $spacing-3;
-        margin-left: $desktop-menu-width + $spacing-3;
-    }
-}
-
-.menu-window {
-    z-index: 1;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    display: none;
-
-    @include on-desktop {
-        display: block;
-        width: $desktop-menu-width;
-    }
+    padding: $spacing-3;
 }
 
 .menu {
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    left: -100%;
-    @include on-desktop {
-        left: 0%;
-    }
+    padding: $spacing-2 $spacing-2;
+    margin-bottom: $spacing-3;
 
-    display: grid;
-    grid-template-rows: auto;
-    grid-auto-columns: auto;
-
-    // Coloring
     @include with-theme {
-        background-color: color-for(hl-area);
-        color: color-for(text);
+        background-color: color-for(primary);
+        color: color-for(text-on-primary);
     }
 }
 
 .menu-container {
-    margin: $spacing-3;
-    display: grid;
-    grid-template-rows: auto 1fr auto;
-    grid-template-columns: 1fr;
-}
-
-.menu-header {
     display: flex;
     flex-direction: row;
     align-items: center;
-
-    @include with-theme {
-        color: color-for(primary);
-    }
-
-    .menu-header-left {
-        flex: 0 1 auto;
-        display: flex;
-        align-items: center;
-    }
-
-    .menu-header-right {
-        flex: 1;
-        text-align: right;
+    @include on-mobile {
+        display: block;
     }
 }
 
+.menu-header {
+    flex-grow: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.menu-title-container {
+    flex: 1;
+}
+
 .menu-title {
-    font-size: $mega-font-size;
+    margin: 0pt $spacing-2;
+    font-size: $large-font-size;
     font-weight: bold;
     text-decoration: none;
     color: inherit !important;
@@ -83,16 +43,52 @@
     }
 }
 
+.menu-dropdown-controls {
+    > .icon-button {
+        margin: 0pt;
+        @include with-theme {
+            color: color-for(text-on-primary);
+        }
+    }
+}
+
+.menu-dropdown {
+    @include on-desktop {
+        flex: 1 !important;
+        display: flex !important;
+        flex-direction: row !important;
+    }
+    @include on-mobile {
+        display: none;
+        text-align: right;
+    }
+}
+
 .menu-links {
-    list-style-type: none;
+    // Spacing and alignment
+    margin: 0pt;
     padding: 0pt;
-    text-align: right;
+    list-style-type: none;
+
+    // Align
+    flex: 1;
+    display: flex;
+    align-items: center;
+    @include on-mobile {
+        display: block;
+    }
+
+    // List element styling
     & > li {
-        margin: $spacing-2 0pt;
+        // Spacing
+        margin: 0pt $spacing-2;
+        @include on-mobile {
+            margin: $spacing-2;
+        }
         > a {
             color: inherit !important;
             text-decoration: none;
-            font-size: $large-font-size;
+            font-size: $normal-font-size;
             &:hover {
                 text-decoration: underline;
             }
@@ -101,7 +97,16 @@
 }
 
 .menu-controls {
+    // Align
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     align-items: center;
+
+    .icon-button {
+        padding: $spacing-1;
+        font-size: $medium-font-size;
+        @include with-theme {
+            color: color-for(text-on-primary);
+        }
+    }
 }
