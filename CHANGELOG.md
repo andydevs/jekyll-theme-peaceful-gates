@@ -5,6 +5,7 @@ Project Start Date: 8 - 23 - 2020
 ### 2.0.0
 
 - Top Menu Bar instead of Side Bar
+- Tablet layout
 
 ### 1.2.0: Change Layout
 
