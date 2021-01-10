@@ -4,6 +4,11 @@
         @content;
     }
 }
+@mixin on-mobile {
+    @media screen and (max-width: $breakpoint-mobile) {
+        @content;
+    }
+}
 
 // Page section mixin
 @mixin page-section {

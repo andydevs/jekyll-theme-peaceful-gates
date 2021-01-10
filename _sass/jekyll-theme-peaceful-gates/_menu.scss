@@ -2,8 +2,12 @@
     overflow: hidden;
 }
 
+.main-container {
+    padding: 0pt $spacing-3;
+}
+
 .menu {
-    padding: $spacing-2 $spacing-3;
+    padding: $spacing-3 $spacing-3;
     margin-bottom: $spacing-2;
 }
 
@@ -11,13 +15,20 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    @include on-mobile {
+        display: block;
+    }
 }
 
-.main-container {
-    padding: 0pt $spacing-3;
+.menu-header {
+    flex-grow: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
 .menu-title {
+    flex: 1;
     margin: 0pt $spacing-2;
     font-size: $large-font-size;
     font-weight: bold;
@@ -28,19 +39,37 @@
     }
 }
 
+.menu-dropdown {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    @include on-mobile {
+        display: block;
+    }
+}
+
 .menu-links {
     // Spacing and alignment
     margin: 0pt;
     padding: 0pt;
+    list-style-type: none;
+
+    // Align
     flex: 1;
     display: flex;
     align-items: center;
-    text-align: left;
-    list-style-type: none;
+    @include on-mobile {
+        display: block;
+    }
 
     // List element styling
     & > li {
+        // Spacing
         margin: 0pt $spacing-2;
+        @include on-mobile {
+            margin: $spacing-2;
+        }
+
         > a {
             color: inherit !important;
             text-decoration: none;
@@ -53,9 +82,12 @@
 }
 
 .menu-controls {
+    // Align
     display: flex;
-    flex-direction: row;
     align-items: center;
+    @include on-mobile {
+        display: block;
+    }
 
     .icon-button {
         font-size: $medium-font-size;
