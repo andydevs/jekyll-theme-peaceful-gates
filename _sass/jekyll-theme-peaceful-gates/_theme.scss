@@ -7,7 +7,7 @@ $light-gray-color: #ececec !default;
 $dark-gray-color: #242424 !default;
 $black-color: black !default;
 $primary-color: #0077ff !default;
-$primary-color-dark: #0099ff !default;
+$primary-color-dark: #0055dd !default;
 
 // Themes
 $themes : (
@@ -29,7 +29,7 @@ $themes : (
         hl-area: $dark-gray-color,
         hl: $light-gray-color,
         primary: $primary-color-dark,
-        text-on-primary: $black-color
+        text-on-primary: $white-color
     )
     
 );

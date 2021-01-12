@@ -33,6 +33,9 @@
 
 // Theme mixin
 @mixin with-theme {
+    transition: background-color 0.5s ease-in-out,
+                color 0.5s ease-in-out;
+
     // Set all colors for themes
     @each $theme, $map in $themes {
         // Apply all of the themes
