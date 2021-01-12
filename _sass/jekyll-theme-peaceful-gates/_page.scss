@@ -1,3 +1,10 @@
+.main-container {
+    margin: $spacing-3;
+    @include on-desktop {
+        margin: $spacing-4 $content-gutters-width;
+    }
+}
+
 .page-header {
     margin: $spacing-3 0pt;
     align-items: center;
@@ -20,13 +27,6 @@
     margin: 0pt;
     font-size: $medium-font-size;
     font-weight: normal;
-}
-
-.content-gutters {
-    margin: 0pt;
-    @include on-desktop {
-        margin: 0pt $content-gutters-width;
-    }
 }
 
 .index-grid {
