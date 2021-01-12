@@ -2,31 +2,41 @@
 layout: index
 title: Example Index
 ---
-{%- for i in (1..17) -%}
+{%- for project in site.data.example -%}
     <div class="snip">
         <div class="snip-header">
             <h2 class="snip-title">
-                Title
+                {{ project.name }}
             </h2>
             <h4 class="snip-subtitle">
-                Tag Tag Tag
+                {%- for keyword in project.keywords -%}
+                    <span class="keyword">{{ keyword }}</span>
+                {%- endfor -%}
             </h4>
         </div>
         <div class="snip-excerpt">
             <p>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Provident 
-                magnam repudiandae sed quidem doloremque ullam, vero eligendi, esse 
-                omnis facilis sunt ex porro labore suscipit fuga laboriosam ducimus 
-                et iusto?
+                {{ project.description }}
             </p>
         </div>
         <div class="button-group">
-            <a class="button" href="#">
-                Read More
-            </a>
-            <a class="button" href="#">
-                Another Button
-            </a>
+            {%- if project.website -%}
+                <a class="button" href="{{ project.website }}">
+                    Website
+                </a>
+            {%- endif -%}
+
+            {%- if project.github -%}
+                {%- if project.link_releases -%}
+                    <a class="button" href="http://github.com/andydevs/{{ project.github }}/releases">
+                        Releases
+                    </a>
+                {%- endif -%}
+
+                <a class="button" href="http://github.com/andydevs/{{ project.github }}">
+                    <span class="fab fa-github"></span> GitHub
+                </a>
+            {%- endif -%}
         </div>
     </div>
 {%- endfor -%}
