@@ -1,16 +1,10 @@
 .page-header {
     margin: $spacing-3 0pt;
-    display: flex;
     align-items: center;
 
     @include with-theme {
         color: color-for(primary);
     }
-}
-
-.page-info {
-    flex: 1;
-    margin: 0pt;
 }
 
 .page-actions {
