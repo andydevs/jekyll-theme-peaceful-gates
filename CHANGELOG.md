@@ -2,6 +2,14 @@ Peaceful Gates: CHANGELOG
 ==============================================================================
 Project Start Date: 8 - 23 - 2020
 
+### 2.0.1
+
+- FIX page header spacing
+- FIX page header alignment in desktop view
+- FIX Added content gutters to index pages in desktop view
+- FIX Updated default darkmode coloring
+- TWEAK Darkmode now fades in and out!
+
 ### 2.0.0
 
 - Top Menu Bar instead of Side Bar
