@@ -1,35 +1,57 @@
 // Theming code courtesy of Katie McTigue
 // Link to blog post: https://medium.com/@katiemctigue/how-to-create-a-dark-mode-in-sass-609f131a3995
 
-// All colors allowed
+// Shades of gray
 $white-color: white !default;
 $light-gray-color: #ececec !default;
 $dark-gray-color: #242424 !default;
 $black-color: black !default;
-$primary-color: #0077ff !default;
-$primary-color-dark: #0055dd !default;
+
+// Colors
+$primary-color:  #0077ff !default;
+$secondary-color:#ff6200 !default;
+$tertiary-color: #ffe100 !default;
+$quaternary-color: #c400ff !default;
 
 // Themes
 $themes : (
     
     // Lightmode theme
     colormode-light: (
+        // Areas
         bg: $white-color,
         text: $black-color,
         hl-area: $light-gray-color,
         hl: $dark-gray-color,
+
+        // Colors
         primary: $primary-color,
-        text-on-primary: $white-color
+        text-on-primary: $white-color,
+        secondary: $secondary-color,
+        text-on-secondary: $white-color,
+        tertiary: $tertiary-color,
+        text-on-tertiary: $black-color,
+        quaternary: $quaternary-color,
+        text-on-quaternary: $white-color
     ),
 
     // Darkmode theme
     colormode-dark: (
+        // Areas
         bg: $black-color,
         text: $white-color,
         hl-area: $dark-gray-color,
         hl: $light-gray-color,
-        primary: $primary-color-dark,
-        text-on-primary: $white-color
+
+        // Colors
+        primary: darken($primary-color, 5%),
+        text-on-primary: $white-color,
+        secondary: darken($secondary-color, 5%),
+        text-on-secondary: $white-color,
+        tertiary: darken($tertiary-color, 5%),
+        text-on-tertiary: $black-color,
+        quaternary: darken($quaternary-color, 5%),
+        text-on-quaternary: $white-color,
     )
     
 );

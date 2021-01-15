@@ -101,7 +101,7 @@ pre {
         // .il    { color: #099 } // Literal.Number.Integer.Long
         
         // Literal.String
-        .dl, .s, .sb, .sc, .sd, .s2, .se, .si, .sx, .sr, .s1, .ss { color: color-for(hl); }
+        .dl, .s, .sb, .sc, .sd, .s2, .se, .si, .sx, .sr, .s1, .ss { color: color-for(secondary); }
         // .sb    { color: #d14 } // Literal.String.Backtick
         // .sc    { color: #d14 } // Literal.String.Char
         // .sd    { color: #d14 } // Literal.String.Doc

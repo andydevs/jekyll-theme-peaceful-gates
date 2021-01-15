@@ -48,6 +48,36 @@
     }
 }
 
+.button-sec {
+    @extend .button;
+    
+    // Color
+    @include with-theme {
+        background-color: color-for(secondary);
+        color: color-for(text-on-secondary);
+    }
+}
+
+.button-ter {
+    @extend .button;
+    
+    // Color
+    @include with-theme {
+        background-color: color-for(tertiary);
+        color: color-for(text-on-tertiary);
+    }
+}
+
+.button-quat {
+    @extend .button;
+    
+    // Color
+    @include with-theme {
+        background-color: color-for(quaternary);
+        color: color-for(text-on-quaternary);
+    }
+}
+
 .icon-button {
     // Spacing and sizing
     margin: $spacing-1;
