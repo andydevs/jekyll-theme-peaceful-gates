@@ -36,19 +36,16 @@
     transition: background-color 0.5s ease-in-out,
                 color 0.5s ease-in-out;
 
-    // Apply default theme
-    $theme-map: map-get($themes, $default) !global;
+    // Apply light theme as default
+    $theme-map: map-get($themes, "colormode-light") !global;
     @content;
     $theme-map: null !global;
 
     // Apply dark theme if darkmode
     @media screen and (prefers-color-scheme: dark) {
-        .colormode-auto &, &.colormode-auto {
-            // Apply default theme
-            $theme-map: map-get($themes, $default-dark) !global;
-            @content;
-            $theme-map: null !global;
-        }
+        $theme-map: map-get($themes, "colormode-dark") !global;
+        @content;
+        $theme-map: null !global;
     }
 
     // Set all colors for sub themes
