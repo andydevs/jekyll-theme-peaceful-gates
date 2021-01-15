@@ -96,3 +96,30 @@
         color: color-for(primary)
     }
 }
+
+.icon-button-sec {
+    @extend .icon-button;
+    
+    // Color
+    @include with-theme {
+        color: color-for(secondary);
+    }
+}
+
+.icon-button-ter {
+    @extend .icon-button;
+    
+    // Color
+    @include with-theme {
+        color: color-for(tertiary);
+    }
+}
+
+.icon-button-quat {
+    @extend .icon-button;
+    
+    // Color
+    @include with-theme {
+        color: color-for(quaternary);
+    }
+}
