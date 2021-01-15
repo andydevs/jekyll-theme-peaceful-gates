@@ -2,6 +2,13 @@ Peaceful Gates: CHANGELOG
 ==============================================================================
 Project Start Date: 8 - 23 - 2020
 
+### 2.1.0
+
+- NEW! rounded Design!
+- NEW! Added some new colors!
+- Darkmode select in footer
+- NEW! Darkmode automatically changes to system theme!
+
 ### 2.0.1
 
 - FIX page header spacing
