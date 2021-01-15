@@ -6,7 +6,7 @@ $(function() {
      * Enable darkmode
      */
     function darkmodeEnable() {
-        $body.addClass('darkmode')
+        $body.addClass('colormode-dark')
         console.log('Darkmode enabled!')
     }
 
@@ -14,7 +14,7 @@ $(function() {
      * Disable darkmode
      */
     function darkmodeDisable() {
-        $body.removeClass('darkmode')
+        $body.removeClass('colormode-dark')
         console.log('Darkmode disabled!')
     }
 

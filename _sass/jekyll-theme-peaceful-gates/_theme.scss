@@ -13,7 +13,7 @@ $primary-color-dark: #0055dd !default;
 $themes : (
     
     // Lightmode theme
-    lightmode: (
+    colormode-light: (
         bg: $white-color,
         text: $black-color,
         hl-area: $light-gray-color,
@@ -23,7 +23,7 @@ $themes : (
     ),
 
     // Darkmode theme
-    darkmode: (
+    colormode-dark: (
         bg: $black-color,
         text: $white-color,
         hl-area: $dark-gray-color,
@@ -33,4 +33,5 @@ $themes : (
     )
     
 );
-$default: "lightmode";
+$default: "colormode-light";
+$default-dark: "colormode-dark";
