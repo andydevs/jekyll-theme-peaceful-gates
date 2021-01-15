@@ -13,7 +13,7 @@ pre {
     @include with-theme {
         background-color: color-for(hl-area);
     }
-    border-radius: $spacing-1;
+    border-radius: $spacing-2;
     > code {
         background: none;
         border-radius: 0pt;
@@ -31,7 +31,7 @@ pre {
     // Highlight takes care of syntax highlighting stuff
     margin: $spacing-3 0pt;
     padding: $spacing-3;
-    border-radius: $spacing-1;
+    border-radius: $spacing-2;
     > pre { 
         margin: 0pt;
         padding: 0pt;
