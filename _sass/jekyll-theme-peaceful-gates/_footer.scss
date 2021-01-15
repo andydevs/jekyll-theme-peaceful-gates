@@ -60,3 +60,33 @@
     text-decoration: none;
     color: inherit !important;
 }
+
+.colormode-set {
+    // Vertical alignment
+    display: inline-flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+    // Sizing and spacing
+    font-size: $normal-font-size;
+    padding: $spacing-1 $spacing-2;
+
+    // Border
+    @include with-theme {
+        border: 1px solid color-for(text);
+        border-radius: $spacing-1;
+    }
+
+    // Subcomponents
+    > .colormode-icon {
+        margin-right: $spacing-1;
+    }
+    #colormode-selector {
+        background: transparent;
+        border: none;
+        @include with-theme {
+            color: color-for(text);
+        }
+    }
+}
