@@ -54,14 +54,14 @@ pre {
         // Keywords
         .k, .kd { color: color-for(primary); font-weight: bold; } // Keyword
         // .kd  { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Declaration
-        // .kt  { } // Keyword.Type
+        .kt  { color: lighten(color-for(primary), 20%); } // Keyword.Type
         // .kc  { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Constant
         // .kp  { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Pseudo
         // .kr  { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Keyword.Reserved
 
         // Operators
         // .o     { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Operator
-        // .ow    { color: darken($color: $white-color, $amount: 10%); font-weight: bold } // Operator.Word
+        .ow    { color: color-for(quaternary); font-weight: bold } // Operator.Word
 
         // Generic
         // .go    { color: darken($color: $white-color, $amount: 30%); } // Generic.Output
@@ -77,13 +77,13 @@ pre {
         // .gu    { color: #aaa } // Generic.Subheading
 
         // Names
-        .na  { color: color-for(primary) } // Name.Attribute
-        // .nb  { color: lighten($color: $back-color, $amount: 50%); } // Name.Builtin
-        // .nc  { color: lighten($color: $back-color, $amount: 40%); font-weight: bold } // Name.Class
+        .na  { color: color-for(quaternary) } // Name.Attribute
+        .nb  { color: lighten($color: color-for(primary), $amount: 30%); } // Name.Builtin
+        .nc  { color: color-for(quaternary); } // Name.Class
         // .no  { color: lighten($color: $back-color, $amount: 40%) } // Name.Constant
         // .ni  { color: darken($color: $white-color, $amount: 20%) } // Name.Entity
         // .ne  { color: #900; font-weight: bold } // Name.Exception
-        // .nf  { color: lighten($color: $back-color, $amount: 55%); font-weight: bold } // Name.Function
+        // .nf  { color: lighten(color-for(primary), 30%); font-weight: bold } // Name.Function
         // .nn  { color: darken($color: $white-color, $amount: 20%) } // Name.Namespace
         .nt     { color: color-for(primary); font-weight: bold; } // Name.Tag
         // .nv  { color: darken($color: $white-color, $amount: 20%) } // Name.Variable
@@ -93,7 +93,7 @@ pre {
         // .vi  { color: darken($color: $white-color, $amount: 20%) } // Name.Variable.Instance
         
         // Literal.Number
-        .m, .mf, .mh, .mi, .mo, .il { color: color-for(primary); }
+        .m, .mf, .mh, .mi, .mo, .il { color: darken(color-for(tertiary), 20%); }
         // .mf    { color: #880 } // Literal.Number.Float
         // .mh    { color: #880 } // Literal.Number.Hex
         // .mi    { color: #880 } // Literal.Number.Integer
