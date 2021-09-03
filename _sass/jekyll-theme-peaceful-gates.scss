@@ -1,5 +1,6 @@
 // Font awesome config
-$fa-font-path: "/assets/fonts";
+$baseurl: "" !default;
+$fa-font-path: $baseurl + "/assets/fonts";
 
 // Imports
 @import "./fontawesome/fontawesome.scss";
